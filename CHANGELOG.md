@@ -2,6 +2,7 @@
 
 ## 12.09.2026
 
+- Alle Treffer direkt anzeigen statt sie in schwer erkennbaren Neuner-Schritten nachzuladen.
 - Archiv von 27 auf 44 kuratierte Spiele erweitert und Detailseiten erzeugt.
 - Quellenprüfung pro Datensatz vorbereitet; Suchindex um Slug, Quellentyp, Region, Entwickler und Aliasfelder erweitert.
 - Tagbasierte Sammlungen interaktiv gemacht.

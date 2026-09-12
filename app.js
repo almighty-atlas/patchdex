@@ -11,7 +11,6 @@ const gameGrid = document.querySelector("#gameGrid");
 const resultCount = document.querySelector("#resultCount");
 const activeFilters = document.querySelector("#activeFilters");
 const emptyState = document.querySelector("#emptyState");
-const loadMore = document.querySelector("#loadMore");
 const heroSearch = document.querySelector("#heroSearch");
 const sideSearch = document.querySelector("#sideSearch");
 const sortSelect = document.querySelector("#sortSelect");
@@ -20,7 +19,6 @@ const dialogContent = document.querySelector("#dialogContent");
 const toast = document.querySelector("#toast");
 
 let query = "";
-let visibleCount = 9;
 let toastTimer;
 let savedGames = new Set(readStorage("patchdex-saved", []));
 let dialogTrigger = null;
@@ -146,12 +144,10 @@ function cardTemplate(game) {
 
 function render() {
   const result = filteredGames();
-  gameGrid.innerHTML = result.slice(0, visibleCount).map(cardTemplate).join("");
+  gameGrid.innerHTML = result.map(cardTemplate).join("");
   resultCount.textContent = `${result.length} ${result.length === 1 ? "Ergebnis" : "Ergebnisse"}`;
   emptyState.hidden = result.length !== 0;
   gameGrid.hidden = result.length === 0;
-  loadMore.hidden = result.length <= visibleCount;
-  if (!loadMore.hidden) loadMore.innerHTML = `${Math.min(9, result.length - visibleCount)} weitere Projekte <span>↓</span>`;
   renderFilterPills();
 }
 
@@ -275,20 +271,18 @@ function openLegalDialog(kind) {
 function resetFilters() {
   document.querySelectorAll("#filters input:checked").forEach(input => input.checked = false);
   query = "";
-  visibleCount = 9;
   heroSearch.value = "";
   sideSearch.value = "";
   render();
 }
 
-document.querySelectorAll("#filters input").forEach(input => input.addEventListener("change", () => { visibleCount = 9; render(); }));
+document.querySelectorAll("#filters input").forEach(input => input.addEventListener("change", render));
 sortSelect.addEventListener("change", render);
 document.querySelector("#resetFilters").addEventListener("click", resetFilters);
 document.querySelector("#emptyReset").addEventListener("click", resetFilters);
 
 [heroSearch, sideSearch].forEach(input => input.addEventListener("input", event => {
   query = event.target.value.trim();
-  visibleCount = 9;
   const other = event.target === heroSearch ? sideSearch : heroSearch;
   other.value = event.target.value;
   render();
@@ -344,7 +338,6 @@ activeFilters.addEventListener("click", event => {
     const input = document.querySelector(`input[name="${button.dataset.filterName}"][value="${button.dataset.filterValue}"]`);
     if (input) input.checked = false;
   }
-  visibleCount = 9;
   render();
 });
 
@@ -374,7 +367,6 @@ document.querySelector("#themeButton").addEventListener("click", () => {
 
 document.querySelector("[data-policy]").addEventListener("click", openPolicy);
 document.querySelectorAll("[data-legal]").forEach(button => button.addEventListener("click", () => openLegalDialog(button.dataset.legal)));
-loadMore.addEventListener("click", () => { visibleCount += 9; render(); });
 
 updateOverview();
 document.querySelector("#themeButton").setAttribute("aria-pressed", String(document.body.classList.contains("dark")));
