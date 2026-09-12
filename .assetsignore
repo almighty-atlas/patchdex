@@ -1,0 +1,8 @@
+.git/
+.DS_Store
+node_modules/
+README.md
+MEDIA_POLICY.md
+generate-pages.mjs
+scan-media.mjs
+wrangler.jsonc

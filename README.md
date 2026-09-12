@@ -1,0 +1,67 @@
+# PatchDex
+
+Ein responsiver, statischer MVP für ein redaktionelles Verzeichnis von Pokémon-ROM-Hacks und Fan-Games. PatchDex hostet keine ROMs oder Spieldateien, sondern verlinkt zu Projektseiten, Entwickler-Repositories und ursprünglichen Community-Threads.
+
+## Lokal ausprobieren
+
+Die `index.html` kann direkt im Browser geöffnet werden. Für das vollständige Verhalten inklusive teilbarer Detail-URLs empfiehlt sich ein lokaler Server:
+
+```bash
+python3 -m http.server 8080
+```
+
+Danach `http://localhost:8080` öffnen.
+
+## Stand des MVP
+
+- 27 kuratierte Starteinträge in `games-data.js`
+- Suche über Titel, Beschreibung, Basis, Sprache und Tags
+- Facettenfilter mit automatisch berechneten Zählern
+- redaktionelle Sortierung und A–Z-Sortierung
+- Detailansicht mit Quellentyp, Version und Prüfdatum
+- 27 lokal gespeicherte Vorschaubilder mit sichtbarer Herkunftsseite und eigener Medien-ID
+- automatisch alternde Quellenampel und „Sicher starten“-Hinweise
+- tagbasierte Empfehlungen für ähnliche Spiele
+- 27 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten
+- echte externe Links mit `nofollow`, `noopener` und `noreferrer`
+- persistente Merkliste und Dark Mode via Local Storage
+- paginierte Raster- und Listenansicht
+- responsive Oberfläche und Reduced-Motion-Unterstützung
+- grundlegende Security-Header für das Deployment
+- vorbereiteter Entfernungsworkflow für einzelne Bilder, vollständige Spieleinträge und Korrekturen
+
+## Daten pflegen
+
+Neue Einträge werden in `games-data.js` ergänzt. Jeder Datensatz benötigt eine eindeutige `id` und `slug`. Für `sourceUrl` sind nur folgende Ziele vorgesehen:
+
+1. Seite des Entwicklerteams
+2. Repository des Entwicklerteams
+3. ursprünglicher Release-/Community-Thread
+
+ROM-Spiegel, vorgepatchte ROMs, Reuploads und SEO-Downloadseiten werden nicht aufgenommen. Version, Status und Link sollten bei jeder Änderung erneut geprüft werden. Erfundenen Community-Bewertungen werden bewusst nicht angezeigt.
+
+Nach Änderungen am Datenbestand werden die Detailseiten neu erzeugt:
+
+```bash
+node generate-pages.mjs
+```
+
+Bilddatei, Herkunft, Medien-ID und Darstellungsart werden getrennt in `media-data.js` gepflegt. `enabled: false` im Medienobjekt deaktiviert ein Motiv sofort; nach `node generate-pages.mjs` nutzen auch die statischen Seiten wieder das neutrale Cover. Für Screenshots, Logos, Freigaben und Credits gilt das dokumentierte [Medienkonzept](MEDIA_POLICY.md).
+
+Der Entfernungsworkflow unter `/remove/` speichert im Mockup lokale Entwürfe. Vor dem Launch wird in `site-config.js` entweder `removalEmail` oder `removalEndpoint` gesetzt.
+
+## Cloudflare deployen
+
+Die enthaltene `wrangler.jsonc` konfiguriert Cloudflare Workers Static Assets. Nach Installation beziehungsweise Anmeldung bei Wrangler:
+
+```bash
+npx wrangler deploy
+```
+
+Für Git-basiertes Deployment kann das Repository alternativ im Cloudflare-Dashboard importiert werden. Es ist kein Build-Befehl erforderlich; das Projektverzeichnis ist das Asset-Verzeichnis.
+
+## Nächste Produktionsschritte
+
+Die vollständige, nach Launch-, Recherche-, Medien-, Barrierefreiheits-, Responsive-, Qualitäts- und Betriebsaufgaben sortierte Arbeitsliste steht in [TODO.md](TODO.md).
+
+Die Beschreibungen sind redaktionelle Kurzfassungen. Pokémon und zugehörige Marken gehören ihren jeweiligen Rechteinhabern; PatchDex ist nicht mit Nintendo, Game Freak, Creatures oder The Pokémon Company verbunden.

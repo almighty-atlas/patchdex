@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bild, Spieleintrag oder fehlerhafte Angabe bei PatchDex melden.">
+    <meta name="robots" content="noindex">
+    <title>Inhalt entfernen lassen – PatchDex</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../remove.css">
+  </head>
+  <body class="removal-page">
+    <header class="detail-header removal-header">
+      <a class="brand" href="../" aria-label="Zur PatchDex Startseite"><span class="brand-mark"><i></i></span><span>PATCH<span>DEX</span></span></a>
+      <a class="back-link" href="../#catalog">← Zurück zum Archiv</a>
+    </header>
+
+    <main class="removal-main">
+      <section class="removal-intro">
+        <div class="eyebrow"><span></span>Rechte & Korrekturen</div>
+        <h1>Inhalt entfernen lassen.</h1>
+        <p>Projektteams und Rechteinhaber können ein einzelnes Bild oder den vollständigen Spieleintrag zur Prüfung melden. Auch falsche Quellen und Angaben lassen sich hier korrigieren.</p>
+        <div class="removal-points">
+          <div><b>01</b><span><strong>Gezielt</strong>Bild und Spieleintrag sind getrennt anwählbar.</span></div>
+          <div><b>02</b><span><strong>Nachvollziehbar</strong>Medien-ID und Herkunft werden mitgesendet.</span></div>
+          <div><b>03</b><span><strong>Priorisiert</strong>Rechteanfragen werden zuerst geprüft.</span></div>
+        </div>
+      </section>
+
+      <section class="removal-panel">
+        <form id="removalForm" class="removal-form">
+          <label>Was soll geprüft werden?
+            <select name="target" id="target" required>
+              <option value="image">Nur Screenshot / Logo entfernen</option>
+              <option value="game">Kompletten Spieleintrag entfernen</option>
+              <option value="correction">Quelle oder Angaben korrigieren</option>
+            </select>
+          </label>
+          <label>Spiel
+            <select name="game" id="game" required><option value="">Bitte wählen …</option></select>
+          </label>
+          <label>Medien-ID
+            <input name="media" id="media" readonly placeholder="Wird beim Spiel automatisch ergänzt">
+          </label>
+          <label>Betroffene PatchDex-Seite
+            <input name="page" id="page" type="url" readonly>
+          </label>
+          <div class="form-split">
+            <label>Name
+              <input name="name" autocomplete="name" required placeholder="Vor- und Nachname">
+            </label>
+            <label>E-Mail
+              <input name="email" type="email" autocomplete="email" required placeholder="name@beispiel.de">
+            </label>
+          </div>
+          <label>Beziehung zum Inhalt
+            <select name="role" required>
+              <option value="project-team">Entwickler/in oder Projektteam</option>
+              <option value="rights-holder">Rechteinhaber/in oder Vertretung</option>
+              <option value="other">Andere betroffene Person</option>
+            </select>
+          </label>
+          <label>Begründung und gewünschte Maßnahme
+            <textarea name="details" rows="6" required placeholder="Bitte kurz erklären, welche Rechte oder Angaben betroffen sind und was entfernt oder geändert werden soll."></textarea>
+          </label>
+          <label class="check-row"><input type="checkbox" name="confirmation" required><span>Ich bestätige, dass meine Angaben richtig sind und ich für diese Anfrage erreichbar bin.</span></label>
+          <button type="submit">Antrag vorbereiten <span>→</span></button>
+          <p class="form-note">Dieses Mockup speichert Anträge nur lokal. Für den öffentlichen Start wird in <code>site-config.js</code> eine Kontaktadresse oder ein Formular-Endpunkt eingetragen.</p>
+        </form>
+        <div class="removal-success" id="removalSuccess" hidden>
+          <span>✓</span>
+          <h2>Antrag vorbereitet</h2>
+          <p id="successText"></p>
+          <button type="button" id="copyRequest">Antrag kopieren</button>
+          <a href="../#catalog">Zurück zum Archiv →</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="removal-footer"><a href="../">PatchDex</a><span>Inhalte melden · Keine Spieldateien</span><button data-privacy>Datenschutz</button></footer>
+    <dialog id="privacyDialog"><button class="dialog-close" aria-label="Dialog schließen">×</button><div class="submit-dialog-head info-dialog"><div class="eyebrow"><span></span>Datenschutz im MVP</div><h2>Datenschutz</h2><p>Der aktuelle MVP sendet dieses Formular nicht an einen Server. Entwürfe verbleiben im Local Storage des Browsers. Vor dem öffentlichen Start wird der konfigurierte Kontaktkanal samt Datenschutzhinweisen ergänzt.</p></div></dialog>
+    <div class="toast" id="toast" role="status"></div>
+    <script src="../games-data.js"></script>
+    <script src="../media-data.js"></script>
+    <script src="../site-config.js"></script>
+    <script src="../remove.js"></script>
+  </body>
+</html>

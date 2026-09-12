@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="PatchDex – entdecke Pokémon ROM-Hacks und Fan-Games." />
+    <title>PatchDex – Pokémon Fan-Game Archiv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="PatchDex Startseite">
+        <span class="brand-mark" aria-hidden="true"><i></i></span>
+        <span>PATCH<span>DEX</span></span>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <a class="active" href="#catalog">Entdecken</a>
+        <a href="#collections">Sammlungen</a>
+        <a href="#about">Über das Projekt</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="themeButton" aria-label="Farbschema wechseln" title="Farbschema wechseln">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v2m0 14v2M3 12h2m14 0h2M5.64 5.64l1.42 1.42m9.88 9.88 1.42 1.42m0-12.72-1.42 1.42M7.06 16.94l-1.42 1.42M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> Das Fan-Game-Archiv</div>
+          <h1>Dein nächstes<br /><em>Abenteuer</em> wartet.</h1>
+          <p>Entdecke kuratierte ROM-Hacks und Fan-Games – mit ehrlichen Infos, Community-Empfehlungen und Links direkt zu den Projekten.</p>
+          <div class="search-shell">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+            <input id="heroSearch" type="search" placeholder="Suche nach Titel, Region oder Feature …" autocomplete="off" />
+            <kbd>/</kbd>
+          </div>
+          <div class="quick-links">
+            <span>Beliebt:</span>
+            <button data-quick="complete">Komplett</button>
+            <button data-quick="german">Auf Deutsch</button>
+            <button data-quick="fakemon">Fakemon</button>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="dex-device">
+            <div class="device-top">
+              <div class="device-lens"><i></i></div>
+              <div class="device-lights"><i></i><i></i><i></i></div>
+            </div>
+            <div class="device-screen">
+              <div class="screen-grid"></div>
+              <div class="creature">✦<span></span></div>
+              <div class="screen-label">NO. 025 // SIGNAL FOUND</div>
+            </div>
+            <div class="device-controls"><i></i><i></i><i></i></div>
+          </div>
+          <div class="float-tag tag-one"><span>27</span> Projekte</div>
+          <div class="float-tag tag-two"><span>7</span> Quellentypen geprüft</div>
+        </div>
+      </section>
+
+      <section class="stats" aria-label="Archiv-Statistiken">
+        <div><strong id="statTotal">–</strong><span>Spiele im Archiv</span></div>
+        <div><strong id="statComplete">–</strong><span>Fertige Projekte</span></div>
+        <div><strong id="statGerman">–</strong><span>Auf Deutsch</span></div>
+        <div><strong id="statSources">–</strong><span>Geprüfte Quellen</span></div>
+      </section>
+
+      <section class="catalog" id="catalog">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span></span> Archiv durchsuchen</div>
+            <h2>Alle Spiele</h2>
+          </div>
+          <div class="view-controls" aria-label="Ansicht wechseln">
+            <span id="resultCount">27 Ergebnisse</span>
+            <button class="active" data-view="grid" aria-label="Rasteransicht">
+              <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zm10 0h6v6h-6zM4 14h6v6H4zm10 0h6v6h-6z"/></svg>
+            </button>
+            <button data-view="list" aria-label="Listenansicht">
+              <svg viewBox="0 0 24 24"><path d="M5 6h14M5 12h14M5 18h14"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="catalog-layout">
+          <aside class="filters" id="filters">
+            <div class="filter-top">
+              <strong>Filter</strong>
+              <button id="resetFilters">Zurücksetzen</button>
+            </div>
+
+            <label class="filter-search">
+              <svg viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
+              <input id="sideSearch" type="search" placeholder="Titel suchen …" />
+            </label>
+
+            <fieldset>
+              <legend>Typ</legend>
+              <label><input type="checkbox" name="type" value="ROM-Hack" /><span>ROM-Hack</span><small data-count="type:ROM-Hack">0</small></label>
+              <label><input type="checkbox" name="type" value="Fan-Game" /><span>Fan-Game</span><small data-count="type:Fan-Game">0</small></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Status</legend>
+              <label><input type="checkbox" name="status" value="Komplett" /><span>Komplett</span><small data-count="status:Komplett">0</small></label>
+              <label><input type="checkbox" name="status" value="In Entwicklung" /><span>In Entwicklung</span><small data-count="status:In Entwicklung">0</small></label>
+              <label><input type="checkbox" name="status" value="Demo" /><span>Demo</span><small data-count="status:Demo">0</small></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Sprache</legend>
+              <label><input type="checkbox" name="language" value="Deutsch" /><span>Deutsch</span><small data-count="language:Deutsch">0</small></label>
+              <label><input type="checkbox" name="language" value="Englisch" /><span>Englisch</span><small data-count="language:Englisch">0</small></label>
+              <label><input type="checkbox" name="language" value="Mehrsprachig" /><span>Mehrsprachig</span><small data-count="language:Mehrsprachig">0</small></label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Plattform / Engine</legend>
+              <label><input type="checkbox" name="engine" value="GBA" /><span>Game Boy Advance</span><small data-count="engine:GBA">0</small></label>
+              <label><input type="checkbox" name="engine" value="GBC" /><span>Game Boy Color</span><small data-count="engine:GBC">0</small></label>
+              <label><input type="checkbox" name="engine" value="NDS" /><span>Nintendo DS</span><small data-count="engine:NDS">0</small></label>
+              <label><input type="checkbox" name="engine" value="Switch" /><span>Nintendo Switch</span><small data-count="engine:Switch">0</small></label>
+              <label><input type="checkbox" name="engine" value="RPG Maker" /><span>RPG Maker</span><small data-count="engine:RPG Maker">0</small></label>
+              <label><input type="checkbox" name="engine" value="Browser" /><span>Browser</span><small data-count="engine:Browser">0</small></label>
+            </fieldset>
+          </aside>
+
+          <div class="results-area">
+            <div class="toolbar">
+              <div class="active-filters" id="activeFilters"><span class="all-pill">Alle Spiele</span></div>
+              <label class="sort-select">
+                <span>Sortieren:</span>
+                <select id="sortSelect">
+                  <option value="featured">Redaktionell empfohlen</option>
+                  <option value="source">Quellentyp</option>
+                  <option value="name">Name A–Z</option>
+                </select>
+              </label>
+            </div>
+            <div class="game-grid" id="gameGrid"></div>
+            <div class="empty-state" id="emptyState" hidden>
+              <div>?</div>
+              <h3>Keine Spiele gefunden</h3>
+              <p>Probiere eine andere Suche oder setze die Filter zurück.</p>
+              <button id="emptyReset">Filter zurücksetzen</button>
+            </div>
+            <button class="load-more" id="loadMore">Mehr Projekte anzeigen <span>↓</span></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="collections" id="collections">
+        <div class="section-heading">
+          <div>
+            <div class="eyebrow"><span></span> Von der Community</div>
+            <h2>Sammlungen für dich</h2>
+          </div>
+          <a href="#catalog">Alle Sammlungen <span>→</span></a>
+        </div>
+        <div class="collection-grid">
+          <article class="collection-card c-one"><span>01</span><div><small>12 SPIELE</small><h3>Die besten Story-Hacks</h3><p>Für alle, die mehr als acht Orden wollen.</p></div></article>
+          <article class="collection-card c-two"><span>02</span><div><small>18 SPIELE</small><h3>Perfekt für Einsteiger</h3><p>Leicht zu patchen, schwer wegzulegen.</p></div></article>
+          <article class="collection-card c-three"><span>03</span><div><small>9 SPIELE</small><h3>Völlig neue Regionen</h3><p>Neue Orte, Pokémon und Geschichten.</p></div></article>
+        </div>
+      </section>
+
+      <section class="legal-strip" id="about">
+        <div class="legal-icon">i</div>
+        <div><strong>Ein Archiv, kein Download-Portal.</strong><p>PatchDex hostet weder ROMs noch Spieledateien. Wir verlinken ausschließlich auf die offiziellen Projektseiten der jeweiligen Entwicklerteams.</p></div>
+        <button class="text-link" data-policy>Redaktionsprinzipien →</button>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#"><span class="brand-mark"><i></i></span><span>PATCH<span>DEX</span></span></a>
+      <p>Von Fans für Fans. Nicht verbunden mit Nintendo, Game Freak oder The Pokémon Company.</p>
+      <div><button data-legal="privacy">Datenschutz</button><a href="remove/">Inhalt entfernen lassen</a></div>
+    </footer>
+
+    <dialog id="gameDialog">
+      <button class="dialog-close" aria-label="Dialog schließen">×</button>
+      <div id="dialogContent"></div>
+    </dialog>
+
+    <div class="toast" id="toast" role="status">Zur Merkliste hinzugefügt</div>
+    <script src="games-data.js"></script>
+    <script src="media-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
