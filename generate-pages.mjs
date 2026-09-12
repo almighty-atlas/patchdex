@@ -7,7 +7,6 @@ await import("./media-data.js");
 const games = window.PATCHDEX_GAMES.map(game => {
   const media = window.PATCHDEX_MEDIA?.[game.slug];
   return {
-    reviewedAt: "2026-09-12",
     ...game,
     ...(media?.enabled === false ? {} : media || {})
   };
@@ -76,9 +75,6 @@ function renderPage(game) {
     <meta property="og:description" content="${escapeHtml(game.description)}">
     <meta name="theme-color" content="${game.color}">
     <title>${escapeHtml(game.name)} – PatchDex</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../../styles.css">
     <link rel="stylesheet" href="../../detail.css">
     <script type="application/ld+json">${schema}</script>
@@ -114,8 +110,7 @@ function renderPage(game) {
         <p class="detail-disclaimer">PatchDex hostet weder ROMs noch Spieldateien und ist nicht mit Nintendo, Game Freak, Creatures oder The Pokémon Company verbunden.</p>
         <div class="detail-actions">
           <button class="share-button" data-share data-title="${escapeHtml(game.name)}">Link teilen <span>↗</span></button>
-          ${hasMedia ? `<a href="../../remove/?game=${game.slug}&target=image&media=${game.mediaId}">Bild entfernen lassen</a>` : ""}
-          <a href="../../remove/?game=${game.slug}&target=game">Spieleintrag entfernen lassen</a>
+${hasMedia ? `          <a href="../../remove/?game=${game.slug}&target=image&media=${game.mediaId}">Bild entfernen lassen</a>\n` : ""}          <a href="../../remove/?game=${game.slug}&target=game">Spieleintrag entfernen lassen</a>
         </div>
       </article>
       <section class="detail-related">

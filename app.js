@@ -23,6 +23,7 @@ let query = "";
 let visibleCount = 9;
 let toastTimer;
 let savedGames = new Set(readStorage("patchdex-saved", []));
+let dialogTrigger = null;
 
 function readStorage(key, fallback) {
   try {
@@ -41,6 +42,10 @@ function escapeHtml(value) {
   return String(value).replace(/[&<>'"]/g, character => ({
     "&": "&amp;", "<": "&lt;", ">": "&gt;", "'": "&#39;", '"': "&quot;"
   })[character]);
+}
+
+function normalizeSearch(value) {
+  return String(value).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("de");
 }
 
 function showToast(message) {
@@ -94,9 +99,10 @@ function safeStartFor(game) {
 
 function filteredGames() {
   const filterKeys = ["type", "status", "language", "engine"];
-  const normalizedQuery = query.toLocaleLowerCase("de");
+  const normalizedQuery = normalizeSearch(query);
   const result = games.filter(game => {
-    const searchable = [game.name, game.description, game.base, game.engine, game.language, ...game.tags].join(" ").toLocaleLowerCase("de");
+    const searchable = normalizeSearch([game.name, game.slug, game.description, game.base, game.engine, game.language,
+      game.sourceKind, game.developer, game.region, ...(game.aliases || []), ...game.tags].join(" "));
     if (normalizedQuery && !searchable.includes(normalizedQuery)) return false;
     return filterKeys.every(key => {
       const selected = getChecked(key);
@@ -149,6 +155,15 @@ function render() {
   renderFilterPills();
 }
 
+function applyCollection(queryValue) {
+  resetFilters();
+  query = queryValue;
+  heroSearch.value = queryValue;
+  sideSearch.value = queryValue;
+  render();
+  document.querySelector("#catalog").scrollIntoView();
+}
+
 function renderFilterPills() {
   const checked = [...document.querySelectorAll("#filters input:checked")];
   const pills = [];
@@ -184,6 +199,7 @@ function setGameInUrl(slug = "") {
 
 function openGame(game, updateUrl = true) {
   if (!game) return;
+  if (!dialog.open) dialogTrigger = document.activeElement;
   const hasMedia = Boolean(game.image);
   const freshness = freshnessFor(game);
   const safeSteps = safeStartFor(game);
@@ -221,9 +237,12 @@ function openGame(game, updateUrl = true) {
 function closeDialog() {
   dialog.close();
   setGameInUrl();
+  if (dialogTrigger?.isConnected) dialogTrigger.focus();
+  dialogTrigger = null;
 }
 
 function openPolicy() {
+  if (!dialog.open) dialogTrigger = document.activeElement;
   dialogContent.innerHTML = `
     <div class="submit-dialog-head info-dialog">
       <div class="eyebrow"><span></span>So arbeitet PatchDex</div>
@@ -242,6 +261,7 @@ function openPolicy() {
 }
 
 function openLegalDialog(kind) {
+  if (!dialog.open) dialogTrigger = document.activeElement;
   dialogContent.innerHTML = `
     <div class="submit-dialog-head info-dialog">
       <div class="eyebrow"><span></span>Datenschutz im MVP</div>
@@ -330,8 +350,11 @@ activeFilters.addEventListener("click", event => {
 
 document.querySelectorAll("[data-view]").forEach(button => button.addEventListener("click", () => {
   document.querySelectorAll("[data-view]").forEach(candidate => candidate.classList.toggle("active", candidate === button));
+  document.querySelectorAll("[data-view]").forEach(candidate => candidate.setAttribute("aria-pressed", String(candidate === button)));
   gameGrid.classList.toggle("list-view", button.dataset.view === "list");
 }));
+
+document.querySelectorAll("[data-collection]").forEach(button => button.addEventListener("click", () => applyCollection(button.dataset.collection)));
 
 document.querySelector(".dialog-close").addEventListener("click", closeDialog);
 dialog.addEventListener("click", event => { if (event.target === dialog) closeDialog(); });
@@ -345,6 +368,7 @@ const storedTheme = readStorage("patchdex-theme", "light");
 document.body.classList.toggle("dark", storedTheme === "dark");
 document.querySelector("#themeButton").addEventListener("click", () => {
   document.body.classList.toggle("dark");
+  document.querySelector("#themeButton").setAttribute("aria-pressed", String(document.body.classList.contains("dark")));
   writeStorage("patchdex-theme", document.body.classList.contains("dark") ? "dark" : "light");
 });
 
@@ -353,6 +377,7 @@ document.querySelectorAll("[data-legal]").forEach(button => button.addEventListe
 loadMore.addEventListener("click", () => { visibleCount += 9; render(); });
 
 updateOverview();
+document.querySelector("#themeButton").setAttribute("aria-pressed", String(document.body.classList.contains("dark")));
 render();
 
 const requestedSlug = new URLSearchParams(window.location.search).get("game");

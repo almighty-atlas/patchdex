@@ -250,3 +250,13 @@ window.PATCHDEX_MEDIA = {
     imageSourceUrl: "https://pokemundo.com/wp-content/uploads/2023/01/POKEMON-EON-GUARDIANS-FANGAME.jpg"
   }
 };
+
+/* Vorhandene Motive bleiben archiviert, sind aber ohne dokumentierte Freigabe deaktiviert. */
+for (const item of Object.values(window.PATCHDEX_MEDIA)) {
+  item.retrievedAt ||= "2026-09-12";
+  item.creator ||= "Nicht abschließend ermittelt";
+  item.rightsStatus ||= "unklar";
+  item.license ||= "Keine Nutzungserlaubnis dokumentiert";
+  item.history ||= [{ date: "2026-09-12", action: "Bis zur Rechteklärung deaktiviert" }];
+  item.enabled = item.enabled === true && ["freigegeben", "creative-commons"].includes(item.rightsStatus);
+}

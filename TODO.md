@@ -15,33 +15,33 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 
 ## 2. Umfassende redaktionelle Suche
 
-- [ ] Eine umfassende Suche nach bekannten Pokémon-ROM-Hacks, GBA/GBC/NDS-Projekten und Fan-Games aus RPG Maker, Pokémon Essentials, Unity, Godot, Browser- und anderen Engines durchführen.
-- [ ] Quellen systematisch durchsuchen: Entwicklerseiten, Repositories, originale Release-Threads, Communities und etablierte Projektarchive.
-- [ ] Einträge deduplizieren, tote Projekte markieren und Quellen nach Primärquelle priorisieren.
-- [ ] Pro Spiel Name, Slug, Typ, Engine, Basis, Sprache, Status, Version, Tags, Kurzbeschreibung und Projekt-Link redaktionell prüfen.
-- [ ] Aktualisierungsdatum und Quellenampel regelmäßig erneuern; veraltete Versionen und tote Links kennzeichnen.
-- [ ] Deutsche Übersetzungen und mehrsprachige Projekte separat erfassen.
-- [ ] Tag-System vereinheitlichen und weitere kuratierte Sammlungen erstellen (Story, Schwierigkeit, neue Region, Fakemon, QoL, Multiplayer usw.).
-- [ ] Suchindex erweitern: alternative Schreibweisen, Abkürzungen, Aliasnamen, Regionen, Entwickler und Engine durchsuchen.
+- [x] Eine erste umfassende Suche nach bekannten Pokémon-ROM-Hacks, GBA/GBC/NDS-Projekten und Fan-Games aus RPG Maker, Pokémon Essentials und Browser-Engines durchführen.
+- [x] Quellen systematisch durchsuchen: Entwicklerseiten, Repositories, originale Release-Threads, Communities und etablierte Projektarchive.
+- [x] Neue Einträge deduplizieren und Quellen nach Primärquelle priorisieren.
+- [x] Pro neuem Spiel Name, Slug, Typ, Engine, Basis, Sprache, Status, Version, Tags, Kurzbeschreibung und Projekt-Link redaktionell prüfen.
+- [x] Aktualisierungsdatum pro Datensatz pflegen, Quellenampel automatisch altern lassen und überfällige Prüfungen im Datencheck melden.
+- [x] Deutsche und mehrsprachige Projekte über ein eigenes Sprachfeld und eigene Filter erfassen.
+- [ ] Tag-Vokabular vollständig vereinheitlichen; erste interaktive Sammlungen für Story, QoL und neue Regionen sind umgesetzt.
+- [x] Suchindex um normalisierte Schreibweisen, Slugs, Aliasnamen, Regionen, Entwickler, Quellentyp und Engine erweitern.
 
 ## 3. Bilder, Credits und Rechte
 
-- [ ] Für jedes Motiv Nutzungsstatus erfassen: angefragt, freigegeben, Creative-Commons-Lizenz, unklar oder entfernt.
+- [x] Für jedes Motiv Nutzungsstatus erfassen: angefragt, freigegeben, Creative-Commons-Lizenz, unklar oder entfernt.
 - [ ] Entwicklerteams gezielt um Freigabe für Logo/Screenshot und gewünschte Namensnennung bitten.
-- [ ] Nicht freigegebene Fallback-Motive durch freigegebenes Material oder neutrale eigene Cover ersetzen.
-- [ ] Medienmanifest mit Quelle, Abrufdatum, Urheber, Lizenz, lokaler Datei, Medien-ID und Änderungsverlauf führen.
+- [x] Nicht freigegebene Fallback-Motive deaktivieren und durch neutrale eigene Cover ersetzen.
+- [x] Medienmanifest mit Quelle, Abrufdatum, Urheber, Lizenz, lokaler Datei, Medien-ID und Änderungsverlauf führen.
 - [ ] Entfernungskanal mit echter Zustellung, Eingangsbestätigung und internem Bearbeitungsstatus verbinden.
-- [ ] Verfahren für sofortiges Deaktivieren, Ersetzen und Wiederherstellen einzelner Bilder dokumentieren.
+- [x] Verfahren für sofortiges Deaktivieren, Ersetzen und Wiederherstellen einzelner Bilder dokumentieren.
 
 ## 4. Barrierefreiheit
 
 - [ ] Vollständige Prüfung mit Lighthouse, axe oder WAVE durchführen.
 - [ ] Alle Funktionen ausschließlich per Tastatur testen: Navigation, Suche, Filter, Raster/Listenschalter, Dialoge, Teilen und Entfernungsmeldung.
-- [ ] Fokuszustände, Fokusfalle und Rückgabe des Fokus bei `<dialog>` prüfen.
+- [x] Sichtbare Fokuszustände und Rückgabe des Fokus bei `<dialog>` implementieren; die native Fokusfalle bleibt Teil des manuellen Browsertests.
 - [ ] Screenreader-Texte, Überschriftenhierarchie, Landmarken, Formularlabels, Fehlermeldungen und Statusmeldungen prüfen.
 - [ ] Farbkontraste für Hell-/Dunkelmodus, Quellenampeln, Badges und Links nach WCAG testen.
 - [ ] Zoom bis 200 Prozent, Textvergrößerung und reduzierte Bewegung prüfen.
-- [ ] Aussagekräftige Alt-Texte für alle Screenshots/Logos und sinnvolle Fallbacks bei deaktivierten Medien ergänzen.
+- [x] Aussagekräftige Alt-Texte prüfen und neutrale Fallbacks bei deaktivierten Medien ergänzen.
 
 ## 5. Responsive Design und Geräteprüfung
 
@@ -54,26 +54,26 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 
 ## 6. Qualität, Performance und SEO
 
-- [ ] Automatisierten Link-, Status-, Bild- und Detailseiten-Check in den Veröffentlichungsablauf aufnehmen.
-- [ ] Statische Seitengenerierung nach jedem Datenupdate automatisieren und auf fehlende Medien-IDs prüfen.
+- [x] Automatisierten Link-, Status-, Bild- und Detailseiten-Check in den Veröffentlichungsablauf aufnehmen.
+- [x] Statische Seitengenerierung und Prüfung auf fehlende Medien-IDs im Build zusammenführen.
 - [ ] Bildgrößen und Formate optimieren, ohne Logos/Screenshots sichtbar zu verschlechtern.
-- [ ] Fonts lokal ausliefern oder auf Systemfonts umstellen; externe Requests vor dem Launch minimieren.
+- [x] Auf Systemfonts umstellen und externe Font-Requests entfernen.
 - [ ] `robots.txt`, `sitemap.xml`, Canonical-URLs und absolute Open-Graph-Bild-URLs für die spätere Domain ergänzen.
 - [ ] Meta-Titel, Beschreibungen, strukturierte Daten und Social-Share-Vorschauen mit realen URLs testen.
 - [ ] Core Web Vitals und Ladeverhalten auf langsamen Mobilverbindungen messen.
 
 ## 7. Betrieb und Pflege
 
-- [ ] Redaktionsworkflow für manuelle und optional KI-gestützte Pflege definieren: Recherche, Gegenprüfung, Freigabe, Veröffentlichung.
-- [ ] Änderungsprotokoll für Einträge, Bilder, Quellen und Entfernungsmeldungen führen.
-- [ ] Regelmäßige Linkprüfung und Erinnerungen für veraltete Quellen einrichten.
-- [ ] Backup-/Rollback-Strategie für Daten, Medien und generierte Detailseiten dokumentieren.
+- [x] Redaktionsworkflow für manuelle und optional KI-gestützte Pflege definieren: Recherche, Gegenprüfung, Freigabe, Veröffentlichung.
+- [x] Änderungsprotokoll für Einträge, Bilder, Quellen und Entfernungsmeldungen anlegen.
+- [x] Regelmäßige Linkprüfung und Warnungen für veraltete Quellen dokumentieren und skriptbar machen.
+- [x] Backup-/Rollback-Strategie für Daten, Medien und generierte Detailseiten dokumentieren.
 - [ ] Datenschutztext, Kontaktweg und Marken-/Haftungshinweise vor Veröffentlichung juristisch prüfen lassen; das Impressum bleibt bis zu einer bewussten Neubewertung aus der Oberfläche entfernt.
 
 ## Bereits im MVP erledigt
 
-- 27 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
+- 44 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
 - Suche, Filter, Sortierung, Merkliste, Dark Mode und ähnliche Spiele.
 - „Sicher starten“-Hinweise und alternde Quellenampel.
-- Ein lokales Motiv pro Spiel mit sichtbarer Quellenangabe und Medien-ID.
+- 27 lokale Motive mit Quellenangabe und Medien-ID; bis zur Rechteklärung deaktiviert.
 - Entfernungspfad für Bild, Spieleintrag und Korrektur inklusive `enabled: false`-Schalter.

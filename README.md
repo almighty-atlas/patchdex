@@ -14,15 +14,15 @@ Danach `http://localhost:8080` öffnen.
 
 ## Stand des MVP
 
-- 27 kuratierte Starteinträge in `games-data.js`
+- 44 kuratierte Einträge in `games-data.js`
 - Suche über Titel, Beschreibung, Basis, Sprache und Tags
 - Facettenfilter mit automatisch berechneten Zählern
 - redaktionelle Sortierung und A–Z-Sortierung
 - Detailansicht mit Quellentyp, Version und Prüfdatum
-- 27 lokal gespeicherte Vorschaubilder mit sichtbarer Herkunftsseite und eigener Medien-ID
+- 27 lokal archivierte, bis zur Rechteklärung deaktivierte Vorschaubilder mit Herkunftsseite und eigener Medien-ID
 - automatisch alternde Quellenampel und „Sicher starten“-Hinweise
 - tagbasierte Empfehlungen für ähnliche Spiele
-- 27 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten
+- 44 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten
 - echte externe Links mit `nofollow`, `noopener` und `noreferrer`
 - persistente Merkliste und Dark Mode via Local Storage
 - paginierte Raster- und Listenansicht
@@ -45,6 +45,8 @@ Nach Änderungen am Datenbestand werden die Detailseiten neu erzeugt:
 ```bash
 node generate-pages.mjs
 ```
+
+Der reproduzierbare Gesamtcheck läuft mit `npm run build`; externe Projektlinks lassen sich separat mit `npm run check:links` prüfen. Redaktion, Medienrechte, Qualität und Betrieb sind in [EDITORIAL_WORKFLOW.md](EDITORIAL_WORKFLOW.md), [QA.md](QA.md) und [OPERATIONS.md](OPERATIONS.md) dokumentiert. Änderungen werden in [CHANGELOG.md](CHANGELOG.md) festgehalten.
 
 Bilddatei, Herkunft, Medien-ID und Darstellungsart werden getrennt in `media-data.js` gepflegt. `enabled: false` im Medienobjekt deaktiviert ein Motiv sofort; nach `node generate-pages.mjs` nutzen auch die statischen Seiten wieder das neutrale Cover. Für Screenshots, Logos, Freigaben und Credits gilt das dokumentierte [Medienkonzept](MEDIA_POLICY.md).
 

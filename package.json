@@ -1,0 +1,11 @@
+{
+  "name": "patchdex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate-pages.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/audit-site.mjs",
+    "check:links": "node scripts/check-links.mjs",
+    "build": "npm run generate && npm run validate"
+  }
+}

@@ -2,7 +2,7 @@ const config = window.PATCHDEX_CONFIG || {};
 const media = window.PATCHDEX_MEDIA || {};
 const games = (window.PATCHDEX_GAMES || []).map(game => ({
   ...game,
-  ...(media[game.slug]?.enabled === false ? {} : media[game.slug] || {})
+  ...(media[game.slug] || {})
 }));
 const form = document.querySelector("#removalForm");
 const gameSelect = document.querySelector("#game");
@@ -12,6 +12,7 @@ const pageInput = document.querySelector("#page");
 const success = document.querySelector("#removalSuccess");
 const successText = document.querySelector("#successText");
 let lastRequest = null;
+let privacyTrigger = null;
 
 function readDrafts() {
   try { return JSON.parse(localStorage.getItem("patchdex-removal-drafts")) || []; }
@@ -108,6 +109,17 @@ document.querySelector("#copyRequest").addEventListener("click", async () => {
 });
 
 const privacyDialog = document.querySelector("#privacyDialog");
-document.querySelector("[data-privacy]").addEventListener("click", () => privacyDialog.showModal());
-privacyDialog.querySelector(".dialog-close").addEventListener("click", () => privacyDialog.close());
-privacyDialog.addEventListener("click", event => { if (event.target === privacyDialog) privacyDialog.close(); });
+function closePrivacyDialog() {
+  privacyDialog.close();
+  if (privacyTrigger?.isConnected) privacyTrigger.focus();
+}
+document.querySelector("[data-privacy]").addEventListener("click", event => {
+  privacyTrigger = event.currentTarget;
+  privacyDialog.showModal();
+});
+privacyDialog.querySelector(".dialog-close").addEventListener("click", closePrivacyDialog);
+privacyDialog.addEventListener("click", event => { if (event.target === privacyDialog) closePrivacyDialog(); });
+privacyDialog.addEventListener("cancel", event => {
+  event.preventDefault();
+  closePrivacyDialog();
+});

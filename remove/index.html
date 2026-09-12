@@ -6,9 +6,6 @@
     <meta name="description" content="Bild, Spieleintrag oder fehlerhafte Angabe bei PatchDex melden.">
     <meta name="robots" content="noindex">
     <title>Inhalt entfernen lassen – PatchDex</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
     <link rel="stylesheet" href="../remove.css">
   </head>
@@ -70,7 +67,7 @@
           <button type="submit">Antrag vorbereiten <span>→</span></button>
           <p class="form-note">Dieses Mockup speichert Anträge nur lokal. Für den öffentlichen Start wird in <code>site-config.js</code> eine Kontaktadresse oder ein Formular-Endpunkt eingetragen.</p>
         </form>
-        <div class="removal-success" id="removalSuccess" hidden>
+        <div class="removal-success" id="removalSuccess" role="status" aria-live="polite" hidden>
           <span>✓</span>
           <h2>Antrag vorbereitet</h2>
           <p id="successText"></p>

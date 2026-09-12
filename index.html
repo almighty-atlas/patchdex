@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="PatchDex – entdecke Pokémon ROM-Hacks und Fan-Games." />
     <title>PatchDex – Pokémon Fan-Game Archiv</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#catalog">Direkt zum Archiv</a>
     <div class="noise" aria-hidden="true"></div>
 
     <header class="site-header">
@@ -38,7 +36,7 @@
           <p>Entdecke kuratierte ROM-Hacks und Fan-Games – mit ehrlichen Infos, Community-Empfehlungen und Links direkt zu den Projekten.</p>
           <div class="search-shell">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
-            <input id="heroSearch" type="search" placeholder="Suche nach Titel, Region oder Feature …" autocomplete="off" />
+            <input id="heroSearch" type="search" aria-label="Archiv durchsuchen" placeholder="Suche nach Titel, Region oder Feature …" autocomplete="off" />
             <kbd>/</kbd>
           </div>
           <div class="quick-links">
@@ -64,7 +62,7 @@
             </div>
             <div class="device-controls"><i></i><i></i><i></i></div>
           </div>
-          <div class="float-tag tag-one"><span>27</span> Projekte</div>
+          <div class="float-tag tag-one"><span>44</span> Projekte</div>
           <div class="float-tag tag-two"><span>7</span> Quellentypen geprüft</div>
         </div>
       </section>
@@ -83,12 +81,12 @@
             <h2>Alle Spiele</h2>
           </div>
           <div class="view-controls" aria-label="Ansicht wechseln">
-            <span id="resultCount">27 Ergebnisse</span>
-            <button class="active" data-view="grid" aria-label="Rasteransicht">
-              <svg viewBox="0 0 24 24"><path d="M4 4h6v6H4zm10 0h6v6h-6zM4 14h6v6H4zm10 0h6v6h-6z"/></svg>
+            <span id="resultCount" role="status" aria-live="polite">44 Ergebnisse</span>
+            <button class="active" data-view="grid" aria-label="Rasteransicht" aria-pressed="true">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v6H4zm10 0h6v6h-6zM4 14h6v6H4zm10 0h6v6h-6z"/></svg>
             </button>
-            <button data-view="list" aria-label="Listenansicht">
-              <svg viewBox="0 0 24 24"><path d="M5 6h14M5 12h14M5 18h14"/></svg>
+            <button data-view="list" aria-label="Listenansicht" aria-pressed="false">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h14"/></svg>
             </button>
           </div>
         </div>
@@ -102,7 +100,7 @@
 
             <label class="filter-search">
               <svg viewBox="0 0 24 24"><path d="m21 21-4.35-4.35m2.35-5.15a7.5 7.5 0 1 1-15 0 7.5 7.5 0 0 1 15 0Z"/></svg>
-              <input id="sideSearch" type="search" placeholder="Titel suchen …" />
+              <input id="sideSearch" type="search" aria-label="Ergebnisse durchsuchen" placeholder="Titel suchen …" />
             </label>
 
             <fieldset>
@@ -169,9 +167,9 @@
           <a href="#catalog">Alle Sammlungen <span>→</span></a>
         </div>
         <div class="collection-grid">
-          <article class="collection-card c-one"><span>01</span><div><small>12 SPIELE</small><h3>Die besten Story-Hacks</h3><p>Für alle, die mehr als acht Orden wollen.</p></div></article>
-          <article class="collection-card c-two"><span>02</span><div><small>18 SPIELE</small><h3>Perfekt für Einsteiger</h3><p>Leicht zu patchen, schwer wegzulegen.</p></div></article>
-          <article class="collection-card c-three"><span>03</span><div><small>9 SPIELE</small><h3>Völlig neue Regionen</h3><p>Neue Orte, Pokémon und Geschichten.</p></div></article>
+          <button class="collection-card c-one" data-collection="Story"><span>01</span><div><small>STORY</small><h3>Story im Mittelpunkt</h3><p>Für alle, die mehr als acht Orden wollen.</p></div></button>
+          <button class="collection-card c-two" data-collection="QoL"><span>02</span><div><small>KOMFORT</small><h3>Modernisierte Klassiker</h3><p>Vertraute Reisen mit sinnvollen Verbesserungen.</p></div></button>
+          <button class="collection-card c-three" data-collection="Neue Region"><span>03</span><div><small>NEUE WELTEN</small><h3>Völlig neue Regionen</h3><p>Neue Orte, Pokémon und Geschichten.</p></div></button>
         </div>
       </section>
 
@@ -193,7 +191,7 @@
       <div id="dialogContent"></div>
     </dialog>
 
-    <div class="toast" id="toast" role="status">Zur Merkliste hinzugefügt</div>
+    <div class="toast" id="toast" role="status" aria-live="polite">Zur Merkliste hinzugefügt</div>
     <script src="games-data.js"></script>
     <script src="media-data.js"></script>
     <script src="app.js"></script>
