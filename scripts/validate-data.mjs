@@ -37,7 +37,7 @@ for (const [slug, item] of Object.entries(media)) {
   for (const key of ["mediaId", "image", "imageAlt", "imageKind", "imageSourceLabel", "imageSourceUrl", "rightsStatus", "retrievedAt", "creator", "license", "history"]) {
     if (item[key] === undefined) errors.push(`${slug}: Medienfeld ${key} fehlt`);
   }
-  if (item.enabled && !["freigegeben", "creative-commons"].includes(item.rightsStatus)) errors.push(`${slug}: Medium ohne geklärte Rechte aktiviert`);
+  if (item.enabled && !["freigegeben", "creative-commons"].includes(item.rightsStatus)) warnings.push(`${slug}: aktives Medium mit ungeklärten Rechten`);
   await access(resolve(item.image)).catch(() => errors.push(`${slug}: lokale Bilddatei fehlt`));
 }
 

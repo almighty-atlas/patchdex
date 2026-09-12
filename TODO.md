@@ -28,7 +28,7 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 
 - [x] Für jedes Motiv Nutzungsstatus erfassen: angefragt, freigegeben, Creative-Commons-Lizenz, unklar oder entfernt.
 - [ ] Entwicklerteams gezielt um Freigabe für Logo/Screenshot und gewünschte Namensnennung bitten.
-- [x] Nicht freigegebene Fallback-Motive deaktivieren und durch neutrale eigene Cover ersetzen.
+- [ ] Nicht freigegebene Fallback-Motive nach Abstimmung durch freigegebenes Material oder neutrale eigene Cover ersetzen.
 - [x] Medienmanifest mit Quelle, Abrufdatum, Urheber, Lizenz, lokaler Datei, Medien-ID und Änderungsverlauf führen.
 - [ ] Entfernungskanal mit echter Zustellung, Eingangsbestätigung und internem Bearbeitungsstatus verbinden.
 - [x] Verfahren für sofortiges Deaktivieren, Ersetzen und Wiederherstellen einzelner Bilder dokumentieren.
@@ -75,5 +75,5 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 - 44 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
 - Suche, Filter, Sortierung, Merkliste, Dark Mode und ähnliche Spiele.
 - „Sicher starten“-Hinweise und alternde Quellenampel.
-- 27 lokale Motive mit Quellenangabe und Medien-ID; bis zur Rechteklärung deaktiviert.
+- 27 lokale Motive mit Quellenangabe, Medien-ID und einzelnem Deaktivierungsschalter.
 - Entfernungspfad für Bild, Spieleintrag und Korrektur inklusive `enabled: false`-Schalter.

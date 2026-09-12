@@ -6,7 +6,7 @@ Stand: 12.09.2026
 
 - Datenfelder, Wertebereiche, eindeutige IDs und Slugs
 - Existenz aller 44 Detailseiten und lokalen Medienarchive
-- Aktivierung von Medien nur bei geklärtem Nutzungsstatus
+- Warnung für aktive Medien mit ungeklärtem Nutzungsstatus
 - Grundlegende HTML-Landmarken, Meta-Beschreibungen, Viewports, Alt-Texte und sichere externe Links
 - Fokusmarkierungen, Skip-Link, Live-Regionen und Zustände der Ansichtsumschaltung
 - Reduced-Motion-Regel und responsive Breakpoints bei 1000, 780/760, 520/500 und 430 Pixeln
