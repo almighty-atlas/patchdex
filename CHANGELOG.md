@@ -2,6 +2,9 @@
 
 ## 13.09.2026
 
+- Sechs geprüfte Discovery-Funde in den Katalog übernommen: Refined Gold, WoofGold & MasterSilver, Dittomon: Mewtation, Heart & Soul, Elysium und Peridot.
+- Für alle sechs neuen Einträge lokal archivierte, visuell geprüfte Screenshots samt Quellen- und Rechtestatus ergänzt; das Archiv umfasst damit 50 Spiele mit 50 Motiven.
+- Pokémon Heart & Soul anhand der offiziellen Projektseite auf Version 2.0.4 aktualisiert.
 - Einzelne blockierte Discovery-Quellen werden als Warnung gemeldet, ohne erfolgreiche Teilergebnisse und den gesamten Workflow als fehlgeschlagen zu markieren.
 - Quellenregister und getrennte Discovery-Eingangsliste mit Belegen, Dublettenvorschlägen, Änderungs- und Fehlerverlauf eingeführt.
 - RSS/Katalog/GitHub-Sammler, fortsetzbaren historischen Import und täglichen Vorschlags-PR vorbereitet; blockierte Quellen bleiben manuell.

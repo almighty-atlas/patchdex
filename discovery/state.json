@@ -8,16 +8,16 @@
   },
   "whackahack": {
     "failures": 0,
-    "lastAttempt": "2026-09-13T17:51:30.754Z",
+    "lastAttempt": "2026-09-13T17:55:50.475Z",
     "backfill": {
-      "nextUrl": "https://whackahack.com/juegos/?page=10",
-      "pages": 9,
-      "complete": false,
-      "lastSuccess": "2026-09-13T17:51:30.754Z"
+      "nextUrl": null,
+      "pages": 29,
+      "complete": true,
+      "lastSuccess": "2026-09-13T17:55:21.048Z"
     },
     "lastSuccess": "2026-09-13T17:51:14.637Z",
     "error": null,
-    "observed": 36
+    "observed": 0
   },
   "github-projects": {
     "failures": 0,

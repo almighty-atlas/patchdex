@@ -78,7 +78,7 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 - [x] Fortsetzbaren historischen Import und täglichen Discovery-Vorschlags-PR vorbereiten.
 - [x] Manuelle Funde, GitHub-Einreichungsformular und kontrollierten Entwurfs-/Freigabeweg ergänzen.
 - [x] Unbekannte Metadaten, eingestellte Projekte, Varianten und bildlose Einträge unterstützen; Aufnahme von Empfehlung trennen.
-- [ ] Nach Push Actions/Issues und PR-Berechtigungen aktivieren; ersten Remote-Lauf prüfen.
+- [x] Nach Push Actions/Issues und PR-Berechtigungen aktivieren; ersten Remote-Lauf prüfen.
 - [ ] Historische Katalogdurchläufe abschließen und gesammelte Funde redaktionell prüfen.
 - [ ] Eevee Expo, Reddit und blockierte historische Forenbereiche manuell erfassen oder Betreiber/API-Zugang klären.
 - [ ] Weitere Sprachcommunities, Projektarchive und Einreichungsquellen ergänzen.
@@ -86,8 +86,8 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 
 ## Bereits im MVP erledigt
 
-- 44 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
+- 50 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
 - Suche, Filter, Sortierung, Merkliste, Dark Mode und ähnliche Spiele.
 - „Sicher starten“-Hinweise und alternde Quellenampel.
-- 44 lokale Motive für alle Spiele mit Quellenangabe, Medien-ID und einzelnem Deaktivierungsschalter.
+- 50 lokale Motive für alle Spiele mit Quellenangabe, Medien-ID und einzelnem Deaktivierungsschalter.
 - Entfernungspfad für Bild, Spieleintrag und Korrektur inklusive `enabled: false`-Schalter.
