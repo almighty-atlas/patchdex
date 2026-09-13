@@ -1,0 +1,84 @@
+[
+  {
+    "id": "pokecommunity",
+    "name": "PokéCommunity · ROM Hacks Showcase",
+    "adapter": "rss",
+    "enabled": true,
+    "url": "https://www.pokecommunity.com/forums/rom-hacks-showcase.184/index.rss",
+    "intervalHours": 24,
+    "accessNote": "Öffentlicher Feed; robots.txt wird vor jedem Lauf geprüft. Forenlisten lieferten am 13.09.2026 HTTP 403, daher kein automatischer historischer Import.",
+    "backfill": { "status": "manual", "url": "https://www.pokecommunity.com/forums/rom-hacks-showcase.184/", "note": "Historische Threads manuell importieren; RSS ist kein vollständiger Bestand." }
+  },
+  {
+    "id": "whackahack",
+    "name": "Whack a Hack · Spielekatalog",
+    "adapter": "html",
+    "enabled": true,
+    "url": "https://whackahack.com/juegos/",
+    "intervalHours": 24,
+    "linkSelector": "a.game__link",
+    "pageParameter": "page",
+    "accessNote": "Nur Titel, Kataloglinks und kurze Versionshinweise. robots.txt wird geprüft; keine Bilder oder Downloads abrufen.",
+    "backfill": { "status": "pending", "note": "Fortsetzbarer Import der nummerierten Katalogseiten; kein Vollständigkeitsnachweis für die gesamte Community." }
+  },
+  {
+    "id": "eevee-released",
+    "name": "Eevee Expo · Released Games",
+    "adapter": "manual",
+    "enabled": false,
+    "url": "https://eeveeexpo.com/released-games/",
+    "intervalHours": 168,
+    "accessNote": "robots.txt untersagt allgemeinen Bots den Zugriff (13.09.2026). Kein Identitätswechsel; manuelle Einreichung oder Betreiberfreigabe erforderlich.",
+    "backfill": { "status": "manual", "note": "Spielbare Demos und Veröffentlichungen manuell erfassen." }
+  },
+  {
+    "id": "eevee-completed",
+    "name": "Eevee Expo · Completed Games",
+    "adapter": "manual",
+    "enabled": false,
+    "url": "https://eeveeexpo.com/completed-games/",
+    "intervalHours": 168,
+    "accessNote": "Automatischer Abruf bis zur Betreiberfreigabe deaktiviert.",
+    "backfill": { "status": "manual", "note": "Fertige Spiele manuell erfassen." }
+  },
+  {
+    "id": "eevee-development",
+    "name": "Eevee Expo · Games in Development",
+    "adapter": "manual",
+    "enabled": false,
+    "url": "https://eeveeexpo.com/games-in-development/",
+    "intervalHours": 168,
+    "accessNote": "Automatischer Abruf bis zur Betreiberfreigabe deaktiviert.",
+    "backfill": { "status": "manual", "note": "Auch unveröffentlichte und eingestellte Projekte berücksichtigen." }
+  },
+  {
+    "id": "reddit-romhacks",
+    "name": "Reddit · Pokémon ROM Hacks",
+    "adapter": "manual",
+    "enabled": false,
+    "url": "https://www.reddit.com/r/PokemonROMhacks/new/",
+    "intervalHours": 168,
+    "accessNote": "Manuelle Entdeckung; API-Zugang und Nutzungsbedingungen vor einer Anbindung klären.",
+    "backfill": { "status": "manual", "note": "Ankündigungen sind nicht automatisch eigenständige oder veröffentlichte Spiele." }
+  },
+  {
+    "id": "github-projects",
+    "name": "GitHub · Releases bekannter Archivprojekte",
+    "adapter": "github-releases",
+    "enabled": true,
+    "url": "https://api.github.com/",
+    "intervalHours": 24,
+    "accessNote": "Offizielle API; nur Repositories, die bereits als Projektquelle im geprüften Archiv stehen. Kein allgemeines GitHub-Scraping.",
+    "backfill": { "status": "not-applicable", "note": "Je Projekt bis zu 100 jüngste Releases; dient der Update-Erkennung, nicht der Erfassung sämtlicher historischer Versionen." }
+  },
+  {
+    "id": "community-submissions",
+    "name": "Patchdex · Spiel-Einreichungen",
+    "adapter": "github-issues",
+    "enabled": true,
+    "url": "https://api.github.com/repos/almighty-atlas/patchdex/issues?state=all&per_page=100",
+    "intervalHours": 24,
+    "accessNote": "Offizielle API; nur strukturierte [Spiel]-Einreichungen. Keine Autorenprofile oder Kommentare speichern.",
+    "backfill": { "status": "not-applicable", "note": "Bis zu 10 API-Seiten je Lauf. Ein erreichtes Limit wird als Fehler gemeldet, nicht als vollständiger Import." }
+  }
+]

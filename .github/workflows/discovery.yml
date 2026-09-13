@@ -1,0 +1,72 @@
+name: Discover games
+on:
+  schedule:
+    - cron: '23 6 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+  pull-requests: write
+  issues: read
+concurrency:
+  group: discovery
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Continue pending discovery branch
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if git ls-remote --exit-code --heads origin refs/heads/automation/discovery; then
+            git fetch origin automation/discovery
+            git switch -c automation/discovery origin/automation/discovery
+            git merge origin/main --no-edit
+          else
+            git switch -c automation/discovery
+          fi
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npm test
+      - name: Collect public metadata
+        id: scan
+        continue-on-error: true
+        env:
+          DISCOVERY_GITHUB_TOKEN: ${{ github.token }}
+        run: npm run discovery:scan
+      - name: Continue historical catalog import
+        id: backfill
+        continue-on-error: true
+        run: npm run discovery:scan -- --source whackahack --backfill --max-pages 3
+      - name: Validate collected records
+        run: node scripts/discovery/validate.mjs
+      - name: Publish run summary
+        if: always()
+        run: |
+          if test -f discovery/REPORT.md; then
+            cat discovery/REPORT.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Propose inbox changes, never publish games
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add discovery/inbox.json discovery/state.json discovery/REPORT.md
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore(discovery): refresh candidate inbox'
+          fi
+          git push origin HEAD:automation/discovery
+          discovery_pr=$(gh pr list --head automation/discovery --state open --json number --jq '.[0].number // empty')
+          if test -z "$discovery_pr" && ! git diff --quiet origin/main HEAD; then
+            gh pr create --base main --head automation/discovery --title 'Discovery: neue Funde und Quellenstatus' --body 'Automatische, ungeprüfte Funde. Bitte discovery/REPORT.md und die Quellenfehler prüfen. Dieser PR ändert keine veröffentlichten Spiele. Übernahmen erfolgen separat über discovery:review.'
+          fi
+      - name: Surface source failures
+        if: steps.scan.outcome == 'failure' || steps.backfill.outcome == 'failure'
+        run: exit 1

@@ -1,7 +1,9 @@
 import { access, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
+import { validateGame } from "./discovery/catalog.mjs";
 
 globalThis.window = {};
+await import("../games-reviewed.js");
 await import("../games-data.js");
 await import("../media-data.js");
 
@@ -9,13 +11,6 @@ const games = window.PATCHDEX_GAMES || [];
 const media = window.PATCHDEX_MEDIA || {};
 const errors = [];
 const warnings = [];
-const required = ["id", "slug", "name", "type", "engine", "status", "language", "base", "version", "sourceKind", "sourceUrl", "featured", "color", "symbol", "tags", "description", "reviewedAt"];
-const allowed = {
-  type: new Set(["ROM-Hack", "Fan-Game"]),
-  status: new Set(["Komplett", "In Entwicklung", "Demo"]),
-  language: new Set(["Deutsch", "Englisch", "Mehrsprachig"]),
-  engine: new Set(["GBA", "GBC", "NDS", "Switch", "RPG Maker", "Browser"])
-};
 
 for (const key of ["id", "slug"]) {
   const values = games.map(game => game[key]);
@@ -23,14 +18,9 @@ for (const key of ["id", "slug"]) {
 }
 
 for (const game of games) {
-  for (const key of required) if (game[key] === undefined || game[key] === "") errors.push(`${game.slug || game.name}: ${key} fehlt`);
-  for (const [key, values] of Object.entries(allowed)) if (!values.has(game[key])) errors.push(`${game.slug}: unbekannter ${key}-Wert „${game[key]}“`);
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(game.slug)) errors.push(`${game.slug}: ungültiger Slug`);
-  if (!/^https:\/\//.test(game.sourceUrl)) errors.push(`${game.slug}: Quelle muss HTTPS verwenden`);
-  if (!Array.isArray(game.tags) || game.tags.length < 2) errors.push(`${game.slug}: mindestens zwei Tags erwartet`);
-  if (new Set(game.tags).size !== game.tags.length) errors.push(`${game.slug}: doppelte Tags`);
+  errors.push(...validateGame(game).map(error => `${game.slug}: ${error}`));
   await access(resolve("games", game.slug, "index.html")).catch(() => errors.push(`${game.slug}: statische Detailseite fehlt`));
-  if (!media[game.slug]) errors.push(`${game.slug}: Vorschaubild fehlt im Medienmanifest`);
+  if (!media[game.slug]) warnings.push(`${game.slug}: noch kein Motiv; neutrales Cover wird verwendet`);
 }
 
 const mediaIds = new Set();

@@ -2,10 +2,19 @@
   "name": "patchdex",
   "private": true,
   "type": "module",
+  "engines": { "node": ">=22" },
   "scripts": {
     "generate": "node generate-pages.mjs",
-    "validate": "node scripts/validate-data.mjs && node scripts/audit-site.mjs",
+    "validate": "node scripts/validate-data.mjs && node scripts/audit-site.mjs && node scripts/discovery/validate.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "discovery:scan": "node scripts/discovery/collect.mjs",
+    "discovery:review": "node scripts/discovery/review.mjs",
+    "discovery:report": "node scripts/discovery/report.mjs",
     "check:links": "node scripts/check-links.mjs",
     "build": "npm run generate && npm run validate"
+  },
+  "devDependencies": {
+    "cheerio": "1.2.0",
+    "robots-parser": "3.0.1"
   }
 }

@@ -8,6 +8,19 @@ const games = (Array.isArray(window.PATCHDEX_GAMES) ? window.PATCHDEX_GAMES : []
     };
   });
 const gameGrid = document.querySelector("#gameGrid");
+// New archive categories must stay filterable without manually changing HTML.
+for (const key of ["type", "status", "language", "engine"]) {
+  const inputs = [...document.querySelectorAll(`#filters input[name="${key}"]`)];
+  const fieldset = inputs[0]?.closest("fieldset");
+  for (const value of new Set(games.map(game => game[key]))) {
+    if (!fieldset || inputs.some(input => input.value === value)) continue;
+    const label = document.createElement("label");
+    const input = document.createElement("input"); input.type = "checkbox"; input.name = key; input.value = value;
+    const span = document.createElement("span"); span.textContent = value;
+    const small = document.createElement("small"); small.dataset.count = `${key}:${value}`; small.textContent = "0";
+    label.append(input, span, small); fieldset.append(label);
+  }
+}
 const resultCount = document.querySelector("#resultCount");
 const activeFilters = document.querySelector("#activeFilters");
 const emptyState = document.querySelector("#emptyState");
@@ -213,6 +226,7 @@ function openGame(game, updateUrl = true) {
         <div><small>Version</small><strong>${escapeHtml(game.version)}</strong></div>
         <div><small>Basis</small><strong>${escapeHtml(game.base)}</strong></div>
         <div><small>Sprache</small><strong>${game.language}</strong></div>
+        ${game.availability ? `<div><small>Verfügbarkeit</small><strong>${escapeHtml(game.availability)}</strong></div>` : ""}
       </div>
       <section class="safe-start">
         <div class="safe-start-title"><span>✓</span><div><small>SICHER STARTEN</small><strong>${game.type === "ROM-Hack" ? "Patch statt fertiger ROM" : game.engine === "Browser" ? "Direkt im Browser" : "Quelle vor Download prüfen"}</strong></div></div>
@@ -262,7 +276,7 @@ function openLegalDialog(kind) {
     <div class="submit-dialog-head info-dialog">
       <div class="eyebrow"><span></span>Datenschutz im MVP</div>
       <h2>Datenschutz</h2>
-      <p>Der aktuelle MVP verwendet keine Analytics und sendet Formulare nicht an einen Server. Theme, Merkliste und Entwürfe verbleiben im Local Storage des Browsers. Schriftdateien werden derzeit von Google Fonts geladen und sollen vor dem öffentlichen Start lokal eingebunden werden.</p>
+      <p>PatchDex verwendet keine Analytics. Theme, Merkliste und lokale Entwürfe verbleiben im Local Storage des Browsers; die Website verwendet Systemschriften. „Spiel fehlt?“ führt zu GitHub: Dort eingereichte Vorschläge sind öffentlich und unterliegen den Datenschutzbedingungen von GitHub. Bitte dort keine privaten Kontaktdaten oder Freigabedokumente posten.</p>
     </div>`;
   if (!dialog.open) dialog.showModal();
   setGameInUrl();

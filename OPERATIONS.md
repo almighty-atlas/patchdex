@@ -2,6 +2,10 @@
 
 ## Regelmäßige Pflege
 
+- Discovery-PR und Quellenfehler bei Eingang prüfen; Betrieb und GitHub-Aktivierung siehe [DISCOVERY.md](DISCOVERY.md).
+- Historische Import-Cursor und manuelle Quellen regelmäßig prüfen. Nach beendeten Katalogdurchläufen Wiederholungen einplanen.
+- Ausgebliebene Actions-Läufe kontrollieren; ein abgeschalteter Zeitplan erzeugt selbst keine Fehlermeldung.
+
 - Monatlich `npm run check:links` ausführen und echte 404/410-Antworten sofort prüfen.
 - Vierteljährlich alle gelben Quellen, spätestens nach 270 Tagen alle roten Quellen manuell prüfen und `reviewedAt` aktualisieren.
 - Vor jeder Veröffentlichung `npm run build` ausführen und die Änderungen der generierten Seiten mitprüfen.

@@ -1,0 +1,30 @@
+name: Spiel fürs Archiv vorschlagen
+description: Fehlendes Spiel oder fehlende Variante mit Projektquelle melden.
+title: "[Spiel] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke fürs Ergänzen! Auch Demos und eingestellte Projekte sind willkommen.
+        Dies ist eine öffentliche GitHub-Einreichung und erfordert ein GitHub-Konto.
+        Bitte keine persönlichen Kontaktdaten, ROM-Dateien oder privaten Freigaben posten.
+        Einreichungen werden geprüft, nicht automatisch veröffentlicht.
+  - type: input
+    id: name
+    attributes:
+      label: Spielname
+      placeholder: Pokémon …
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Projektquelle
+      description: HTTPS-Link zur Entwicklerseite, zum Repository oder ursprünglichen Projektthread. Kein ROM-Spiegel.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Hinweise
+      description: Optional – Entwickler, Sprache, Basis, Status, frühere Namen oder verwandtes Projekt. Unsicheres bitte kennzeichnen.

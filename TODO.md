@@ -1,6 +1,6 @@
 # PatchDex – offene Todos
 
-Stand: 12.09.2026
+Stand: 13.09.2026
 
 Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen MVP zu einem öffentlichen Archiv. Erledigte MVP-Funktionen sind unten separat festgehalten; neue Aufgaben bitte hier ergänzen.
 
@@ -69,6 +69,20 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 - [x] Regelmäßige Linkprüfung und Warnungen für veraltete Quellen dokumentieren und skriptbar machen.
 - [x] Backup-/Rollback-Strategie für Daten, Medien und generierte Detailseiten dokumentieren.
 - [ ] Datenschutztext, Kontaktweg und Marken-/Haftungshinweise vor Veröffentlichung juristisch prüfen lassen; das Impressum bleibt bis zu einer bewussten Neubewertung aus der Oberfläche entfernt.
+
+## 8. Vollständiges Archiv und Entdeckung
+
+- [x] Quellenregister mit Abrufmethode, Zugangshinweisen und historischem Umfang anlegen.
+- [x] Eingangsliste mit Belegen, Fingerprints, Dublettenvorschlägen und Entscheidungen getrennt vom öffentlichen Katalog speichern.
+- [x] RSS-, Katalog- und GitHub-Adapter mit robots.txt-Prüfung, Limits und sichtbaren Fehlern implementieren.
+- [x] Fortsetzbaren historischen Import und täglichen Discovery-Vorschlags-PR vorbereiten.
+- [x] Manuelle Funde, GitHub-Einreichungsformular und kontrollierten Entwurfs-/Freigabeweg ergänzen.
+- [x] Unbekannte Metadaten, eingestellte Projekte, Varianten und bildlose Einträge unterstützen; Aufnahme von Empfehlung trennen.
+- [ ] Nach Push Actions/Issues und PR-Berechtigungen aktivieren; ersten Remote-Lauf prüfen.
+- [ ] Historische Katalogdurchläufe abschließen und gesammelte Funde redaktionell prüfen.
+- [ ] Eevee Expo, Reddit und blockierte historische Forenbereiche manuell erfassen oder Betreiber/API-Zugang klären.
+- [ ] Weitere Sprachcommunities, Projektarchive und Einreichungsquellen ergänzen.
+- [ ] Wiederholte historische Abgleiche und unabhängigen Watchdog für ausgebliebene Sammelläufe einrichten.
 
 ## Bereits im MVP erledigt
 

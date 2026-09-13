@@ -25,14 +25,14 @@ Danach `http://localhost:8080` öffnen.
 - 44 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten
 - echte externe Links mit `nofollow`, `noopener` und `noreferrer`
 - persistente Merkliste und Dark Mode via Local Storage
-- paginierte Raster- und Listenansicht
+- Raster- und Listenansicht mit allen passenden Treffern
 - responsive Oberfläche und Reduced-Motion-Unterstützung
 - grundlegende Security-Header für das Deployment
 - vorbereiteter Entfernungsworkflow für einzelne Bilder, vollständige Spieleinträge und Korrekturen
 
 ## Daten pflegen
 
-Neue Einträge werden in `games-data.js` ergänzt. Jeder Datensatz benötigt eine eindeutige `id` und `slug`. Für `sourceUrl` sind nur folgende Ziele vorgesehen:
+Neue Funde werden zunächst in `discovery/inbox.json` gesammelt. Nach Prüfung übernimmt `discovery:review approve` sie nach `games-reviewed.js`; `games-data.js` bleibt der Ausgangsbestand. Jeder Datensatz benötigt eine eindeutige `id` und `slug`. Für `sourceUrl` sind nur folgende Ziele vorgesehen:
 
 1. Seite des Entwicklerteams
 2. Repository des Entwicklerteams
@@ -51,6 +51,12 @@ Der reproduzierbare Gesamtcheck läuft mit `npm run build`; externe Projektlinks
 Bilddatei, Herkunft, Medien-ID und Darstellungsart werden getrennt in `media-data.js` gepflegt. `enabled: false` im Medienobjekt deaktiviert ein Motiv sofort; nach `node generate-pages.mjs` nutzen auch die statischen Seiten wieder das neutrale Cover. Für Screenshots, Logos, Freigaben und Credits gilt das dokumentierte [Medienkonzept](MEDIA_POLICY.md).
 
 Der Entfernungsworkflow unter `/remove/` speichert im Mockup lokale Entwürfe. Vor dem Launch wird in `site-config.js` entweder `removalEmail` oder `removalEndpoint` gesetzt.
+
+## Automatische Entdeckung
+
+Quellenregister, Eingangsliste, historische Importe, Dublettenprüfung und Freigabe sind in [DISCOVERY.md](DISCOVERY.md) beschrieben. Der aktuelle Eingang steht in [discovery/REPORT.md](discovery/REPORT.md). Neue Funde werden niemals ungeprüft veröffentlicht. Der vorbereitete GitHub-Workflow sammelt täglich und erstellt einen Vorschlags-PR; Aktivierung und nötige Repository-Rechte siehe Anleitung.
+
+Für die Entwicklungswerkzeuge Node.js 22+ und einmalig `npm ci --ignore-scripts` verwenden. `npm test` prüft Sammler, Zugriffsschutz und den Übernahmeweg; `npm run build` prüft auch das Quellenregister und den Eingang.
 
 ## Cloudflare deployen
 

@@ -1,5 +1,13 @@
 # Änderungsprotokoll
 
+## 13.09.2026
+
+- Quellenregister und getrennte Discovery-Eingangsliste mit Belegen, Dublettenvorschlägen, Änderungs- und Fehlerverlauf eingeführt.
+- RSS/Katalog/GitHub-Sammler, fortsetzbaren historischen Import und täglichen Vorschlags-PR vorbereitet; blockierte Quellen bleiben manuell.
+- Öffentliche Spieleinreichung per GitHub-Formular und lokale Entwurfs-/Freigabebefehle ergänzt. Ungeprüfte Funde werden nicht veröffentlicht.
+- Bildlose, eingestellte und noch unbekannte Projekte sowie Variantenbeziehungen unterstützt; neue Entwürfe starten ohne redaktionelle Empfehlung.
+- Tests für Parser, Zugriffsschutz, Wiederholungen, Teilfehler, historische Fortsetzung und den vollständigen Übernahmeweg ergänzt.
+
 ## 12.09.2026
 
 - Die 17 fehlenden Vorschaubilder ergänzt: 16 Gameplay-Aufnahmen/Collagen und ein Titelbildschirm, jeweils lokal gespeichert und visuell geprüft. Alle 44 Spiele besitzen jetzt ein Bild.

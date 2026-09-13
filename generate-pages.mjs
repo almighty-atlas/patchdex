@@ -2,6 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 globalThis.window = {};
+await import("./games-reviewed.js");
 await import("./games-data.js");
 await import("./media-data.js");
 const games = window.PATCHDEX_GAMES.map(game => {
@@ -98,7 +99,7 @@ function renderPage(game) {
           <div><dt>Version</dt><dd>${escapeHtml(game.version)}</dd></div>
           <div><dt>Basis</dt><dd>${escapeHtml(game.base)}</dd></div>
           <div><dt>Sprache</dt><dd>${game.language}</dd></div>
-        </dl>
+${game.availability ? `          <div><dt>Verfügbarkeit</dt><dd>${escapeHtml(game.availability)}</dd></div>\n` : ""}${game.developer ? `          <div><dt>Entwicklung</dt><dd>${escapeHtml(game.developer)}</dd></div>\n` : ""}${game.relations?.length ? `          <div><dt>Verwandte Projekte</dt><dd>${game.relations.map(relation => `<a href="../${relation.slug}/">${escapeHtml(relation.kind)}: ${escapeHtml(games.find(item => item.slug === relation.slug)?.name || relation.slug)}</a>`).join(" · ")}</dd></div>\n` : ""}        </dl>
         <section class="detail-safe">
           <div class="detail-safe-heading"><span>✓</span><div><small>SICHER STARTEN</small><h2>${game.type === "ROM-Hack" ? "Patch statt fertiger ROM" : game.engine === "Browser" ? "Direkt im Browser" : "Quelle vor Download prüfen"}</h2></div></div>
           <ol>${steps.map(step => `<li>${escapeHtml(step)}</li>`).join("")}</ol>

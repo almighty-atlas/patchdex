@@ -799,6 +799,13 @@ window.PATCHDEX_GAMES = [
   }
 ];
 
+/* Nur redaktionell freigegebene Ergänzungen; discovery/inbox.json wird nie geladen. */
+for (const reviewed of window.PATCHDEX_REVIEWED_GAMES || []) {
+  const index = window.PATCHDEX_GAMES.findIndex(game => game.slug === reviewed.slug);
+  if (index < 0) window.PATCHDEX_GAMES.push(reviewed);
+  else window.PATCHDEX_GAMES[index] = { ...window.PATCHDEX_GAMES[index], ...reviewed };
+}
+
 /* Das Datum bleibt am Datensatz und kann bei Einzelprüfungen überschrieben werden. */
 for (const game of window.PATCHDEX_GAMES) {
   game.reviewedAt ||= "2026-09-12";

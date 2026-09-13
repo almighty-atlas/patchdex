@@ -1,6 +1,14 @@
 # Qualitäts- und Geräteprüfung
 
-Stand: 12.09.2026
+Stand: 13.09.2026
+
+## Discovery-Prüfung am 13.09.2026
+
+- `npm test`: 21 Tests für RSS/Atom/HTML, URL-Sicherheit, robots.txt, Dubletten, Teilfehler, Wiederholungen, historische Fortsetzung, Issue-Einreichungen und Freigabe.
+- End-to-End in einem temporären Repository: Import → Entwurf → Freigabe → bildlose statische Detailseite. Keine Testspiele im echten Katalog.
+- Live-Abrufe: PokéCommunity-RSS, Whack-a-Hack-Katalog und GitHub-APIs erfolgreich. Drei historische Katalogseiten erfasst; 163 Funde insgesamt, einschließlich alter Release-Hinweise und möglicher Dubletten.
+- Lokaler Chrome-Headless-Test: weiterhin 44 öffentliche Spiele/44 Bilder und Einreichungslink. Isolierter Testeintrag mit neutralem Cover, neuen Filtern, Verfügbarkeit im Dialog und Auswahl im Entfernungsformular erfolgreich.
+- `npm run build`, YAML-Syntaxprüfung und `git diff --check` erfolgreich. Remote-Actions/PR-Erstellung erst nach Push und Freigabe der Repository-Berechtigungen prüfbar.
 
 ## Automatisiert geprüft
 

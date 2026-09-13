@@ -1,12 +1,14 @@
 # Redaktioneller Workflow
 
+Automatische/manuelle Entdeckung und Freigabebefehle: [DISCOVERY.md](DISCOVERY.md). Funde bleiben bis zur Prüfung außerhalb des öffentlichen Archivs. Auch Demos, eingestellte Projekte und Spiele ohne Bilder sind zulässig; Aufnahme ist keine Empfehlung.
+
 ## 1. Recherchieren
 
 Nur Entwicklerseiten, Entwickler-Repositories und ursprüngliche Release-Threads verwenden. ROM-Spiegel, Reuploads, vorgepatchte ROMs und Quellen ohne erkennbare Projektzuordnung ausschließen. Kandidaten anhand von Name, Entwicklerteam und Basis deduplizieren.
 
 ## 2. Gegenprüfen
 
-Name, Typ, Engine, Basis, Sprache, Status und Version direkt an der Primärquelle prüfen. `reviewedAt` auf das tatsächliche Prüfdatum setzen. Unsichere Werte als „Laufend“ oder „In Entwicklung“ formulieren, nicht erraten. Tags aus dem bestehenden Vokabular wiederverwenden.
+Name, Typ, Engine, Basis, Sprache, Status und Version direkt an der Primärquelle prüfen. `reviewedAt` auf das tatsächliche Prüfdatum setzen. Unsichere Werte als „Unbekannt“ führen; „In Entwicklung“ nur bei entsprechendem Beleg. Tags aus dem bestehenden Vokabular wiederverwenden. Verfügbarkeit getrennt vom Entwicklungsstatus betrachten.
 
 ## 3. Medien freigeben
 
@@ -17,6 +19,7 @@ Freigabeanfragen verwenden den Text aus `MEDIA_POLICY.md`. Antworten werden auß
 ## 4. Prüfen und veröffentlichen
 
 ```bash
+npm test
 npm run build
 npm run check:links
 ```

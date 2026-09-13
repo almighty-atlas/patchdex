@@ -1,4 +1,5 @@
 globalThis.window = {};
+await import("../games-reviewed.js");
 await import("../games-data.js");
 
 const timeoutMs = 12000;
