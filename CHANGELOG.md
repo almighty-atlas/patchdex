@@ -2,6 +2,7 @@
 
 ## 13.09.2026
 
+- Einzelne blockierte Discovery-Quellen werden als Warnung gemeldet, ohne erfolgreiche Teilergebnisse und den gesamten Workflow als fehlgeschlagen zu markieren.
 - Quellenregister und getrennte Discovery-Eingangsliste mit Belegen, Dublettenvorschlägen, Änderungs- und Fehlerverlauf eingeführt.
 - RSS/Katalog/GitHub-Sammler, fortsetzbaren historischen Import und täglichen Vorschlags-PR vorbereitet; blockierte Quellen bleiben manuell.
 - Öffentliche Spieleinreichung per GitHub-Formular und lokale Entwurfs-/Freigabebefehle ergänzt. Ungeprüfte Funde werden nicht veröffentlicht.
