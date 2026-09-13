@@ -19,7 +19,7 @@ Danach `http://localhost:8080` öffnen.
 - Facettenfilter mit automatisch berechneten Zählern
 - redaktionelle Sortierung und A–Z-Sortierung
 - Detailansicht mit Quellentyp, Version und Prüfdatum
-- 27 lokal gespeicherte Vorschaubilder mit Herkunftsseite, eigener Medien-ID und dokumentiertem Rechtestatus
+- 44 lokal gespeicherte Vorschaubilder mit Herkunftsseite, eigener Medien-ID und dokumentiertem Rechtestatus
 - automatisch alternde Quellenampel und „Sicher starten“-Hinweise
 - tagbasierte Empfehlungen für ähnliche Spiele
 - 44 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten

@@ -2,6 +2,9 @@
 
 ## 12.09.2026
 
+- Die 17 fehlenden Vorschaubilder ergänzt: 16 Gameplay-Aufnahmen/Collagen und ein Titelbildschirm, jeweils lokal gespeichert und visuell geprüft. Alle 44 Spiele besitzen jetzt ein Bild.
+- Screenshots werden in Karten, Dialogen und Detailseiten vollständig und ohne Logo-Innenabstand angezeigt.
+- Der Datencheck erkennt fehlende Medienzuordnungen, doppelte Medien-IDs und ungültige Bilddateien.
 - Alle Treffer direkt anzeigen statt sie in schwer erkennbaren Neuner-Schritten nachzuladen.
 - Archiv von 27 auf 44 kuratierte Spiele erweitert und Detailseiten erzeugt.
 - Quellenprüfung pro Datensatz vorbereitet; Suchindex um Slug, Quellentyp, Region, Entwickler und Aliasfelder erweitert.

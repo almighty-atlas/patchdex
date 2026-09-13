@@ -6,6 +6,346 @@
  * setzen; Karten und Detailseiten fallen dann auf das neutrale Cover zurück.
  */
 window.PATCHDEX_MEDIA = {
+  "pokemon-crystal-clear": {
+    "mediaId": "media-pokemon-crystal-clear-01",
+    "image": "assets/games/pokemon-crystal-clear.jpg",
+    "imageAlt": "Pokémon-Center mit einem folgenden Flaaffy in Crystal Clear",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "TheGamesDB · Screenshot-Archiv",
+    "imageSourceUrl": "https://thegamesdb.net/game.php?id=77793",
+    "imageOriginalUrl": "https://cdn.thegamesdb.net/images/original/screenshot/77793-1.jpg",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-coral": {
+    "mediaId": "media-pokemon-coral-01",
+    "image": "assets/games/pokemon-coral.png",
+    "imageAlt": "Trainer zwischen Häusern und Blumen in der Onwa-Region",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Glitchworlds · Screenshot-Galerie",
+    "imageSourceUrl": "https://glitchworlds.com/jeu/pokemon-coral-250",
+    "imageOriginalUrl": "https://glitchworlds.com/images/08_juillet_2023_14h03m22_fbe3z56dxkv.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-crown": {
+    "mediaId": "media-pokemon-crown-01",
+    "image": "assets/games/pokemon-crown.png",
+    "imageAlt": "Ariados-Gegner in der Silversilk-Höhle von Pokémon Crown",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Pok Universe · Crown-Spielbericht",
+    "imageSourceUrl": "https://pokuniverse.com/rom-hacks/pokemon-crown/",
+    "imageOriginalUrl": "https://pokuniverse.com/wp-content/uploads/2023/01/pokemon-crown-silversilk-cave-and-the-guardian-ariados.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-odyssey": {
+    "mediaId": "media-pokemon-odyssey-01",
+    "image": "assets/games/pokemon-odyssey.jpg",
+    "imageAlt": "Emerald Grove mit Erkundung und Stantler-Begegnung in Pokémon Odyssey",
+    "imageKind": "Screenshot-Collage",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "PacoScarso · Entwicklerbeitrag",
+    "imageSourceUrl": "https://x.com/Paco_Scarso/status/1887282736240746864",
+    "imageOriginalUrl": "https://pbs.twimg.com/media/GjD40e7XgAAT7Ur.jpg",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-quetzal": {
+    "mediaId": "media-pokemon-quetzal-01",
+    "image": "assets/games/pokemon-quetzal.png",
+    "imageAlt": "Doppelkampf gegen Angler Andrew mit Quapsel und Felino in Pokémon Quetzal",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Projektseite · Pokémon Quetzal",
+    "imageSourceUrl": "https://www.pokemonquetzal.app/",
+    "imageOriginalUrl": "https://cdn.pokemonquetzal.app/assets/images/features/multiplayer-poster.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-emerald-legacy": {
+    "mediaId": "media-pokemon-emerald-legacy-01",
+    "image": "assets/games/pokemon-emerald-legacy.png",
+    "imageAlt": "Auswahl zwischen Normal, Hard und Hardcore in Emerald Legacy",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "GBACodes · Screenshot-Galerie",
+    "imageSourceUrl": "https://gbacodes.com/pokemon-emerald-legacy/",
+    "imageOriginalUrl": "https://gbacodes.com/wp-content/uploads/2024/12/Pokemon-Emerald-Legacy-2.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-crystal-legacy": {
+    "mediaId": "media-pokemon-crystal-legacy-01",
+    "image": "assets/games/pokemon-crystal-legacy.png",
+    "imageAlt": "Geöffnetes Item-Menü mit Sonderbonbons in Crystal Legacy",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Niko Uusitalo · Spielaufnahme",
+    "imageSourceUrl": "https://www.nikouusitalo.com/blog/hacking-in-rare-candies-in-pokemon-crystal-legacy/",
+    "imageOriginalUrl": "https://www.nikouusitalo.com/content/images/2024/03/image-1.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-yellow-legacy": {
+    "mediaId": "media-pokemon-yellow-legacy-01",
+    "image": "assets/games/pokemon-yellow-legacy.jpg",
+    "imageAlt": "Glurak kämpft gegen Tangela in Pokémon Yellow Legacy",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "VideoGamer · Yellow-Legacy-Spielbericht",
+    "imageSourceUrl": "https://www.videogamer.com/features/i-played-the-best-pokemon-rom-hack-and-it-took-me-on-an-emotional-journey-i-never-expected/",
+    "imageOriginalUrl": "https://www.videogamer.com/wp-content/uploads/Pokemon-Yellow-Legacy-Charizard-vs-Tangela.jpg",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-black-and-white-3-genesis": {
+    "mediaId": "media-pokemon-black-and-white-3-genesis-01",
+    "image": "assets/games/pokemon-black-and-white-3-genesis.jpg",
+    "imageAlt": "Küstenstadt mit Palmen und Strand in Black and White 3: Genesis",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "TheGamesDB · Screenshot-Archiv",
+    "imageSourceUrl": "https://thegamesdb.net/game.php?id=131812",
+    "imageOriginalUrl": "https://cdn.thegamesdb.net/images/medium/screenshot/131812-1.jpg",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-fools-gold": {
+    "mediaId": "media-pokemon-fools-gold-01",
+    "image": "assets/games/pokemon-fools-gold.png",
+    "imageAlt": "Titelbildschirm von Pokémon Fool’s Gold mit verändertem Vogel-Pokémon",
+    "imageKind": "Titelbildschirm",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "LaunchBox · Screenshot-Archiv",
+    "imageSourceUrl": "https://gamesdb.launchbox-app.com/games/images/162772-pokemon-fools-gold",
+    "imageOriginalUrl": "https://images.launchbox-app.com/01507fdb-f262-4099-b8b3-85ca1919f70f.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-tectonic": {
+    "mediaId": "media-pokemon-tectonic-01",
+    "image": "assets/games/pokemon-tectonic.png",
+    "imageAlt": "Spielszenen und Menüs aus Pokémon Tectonic",
+    "imageKind": "Screenshot-Collage",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Projektseite · Pokémon Tectonic",
+    "imageSourceUrl": "https://www.tectonic-game.com/",
+    "imageOriginalUrl": "https://www.tectonic-game.com/feature-images/simple%20stitch%206.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-desolation": {
+    "mediaId": "media-pokemon-desolation-01",
+    "image": "assets/games/pokemon-desolation.png",
+    "imageAlt": "Kampfansage von Trainer Timothy in einer violett beleuchteten Arena in Pokémon Desolation",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Entwickler-Galerie · Reborn Evolved",
+    "imageSourceUrl": "https://www.rebornevo.com/deso/index.php/",
+    "imageOriginalUrl": "https://www.rebornevo.com/uploads/monthly_2023_01/3.png.a312dabcb004465d022e120270190662.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-flux": {
+    "mediaId": "media-pokemon-flux-01",
+    "image": "assets/games/pokemon-flux.png",
+    "imageAlt": "Spielszene aus der Altera-Region in Pokémon Flux",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Entwickler-Showcase · Eevee Expo",
+    "imageSourceUrl": "https://eeveeexpo.com/flux/",
+    "imageOriginalUrl": "https://i.imgur.com/Gz1DCaq.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-showdown": {
+    "mediaId": "media-pokemon-showdown-01",
+    "image": "assets/games/pokemon-showdown.png",
+    "imageAlt": "Desktop-Kampfoberfläche des Pokémon-Showdown-Simulators",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Projektseite · Pokémon Showdown",
+    "imageSourceUrl": "https://pokemonshowdown.com/",
+    "imageOriginalUrl": "https://pokemonshowdown.com/images/screenshot-desktop.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-blaze-online": {
+    "mediaId": "media-pokemon-blaze-online-01",
+    "image": "assets/games/pokemon-blaze-online.jpg",
+    "imageAlt": "Trainer und Pokémon versammeln sich im Oasis Resort",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Projektseite · Pokémon Blaze Online",
+    "imageSourceUrl": "https://www.pokemonblazeonline.com/",
+    "imageOriginalUrl": "https://www.pokemonblazeonline.com/images/press/pbo-oasis-gathering.jpg",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokemon-z": {
+    "mediaId": "media-pokemon-z-01",
+    "image": "assets/games/pokemon-z.png",
+    "imageAlt": "Gespräch über Dressella in einem Innenraum von Pokémon Z",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Eric Lostie · Entwicklerbeitrag",
+    "imageSourceUrl": "https://x.com/Eric_Lostie/status/2030984390570864930",
+    "imageOriginalUrl": "https://pbs.twimg.com/media/HC-BeiLWkAA0J5B.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
+  "pokeforce": {
+    "mediaId": "media-pokeforce-01",
+    "image": "assets/games/pokeforce.png",
+    "imageAlt": "Spielwelt von PokéForce mit Trainern und Pokémon",
+    "imageKind": "Screenshot",
+    "imageFit": "screenshot",
+    "imageSourceLabel": "Projektseite · PokéForce",
+    "imageSourceUrl": "https://pokeforce.org/",
+    "imageOriginalUrl": "https://pokeforce.org/hero.png",
+    "retrievedAt": "2026-09-12",
+    "creator": "Nicht abschließend ermittelt; Herkunft siehe Bildquelle",
+    "rightsStatus": "unklar",
+    "license": "Keine Nutzungserlaubnis dokumentiert",
+    "history": [
+      {
+        "date": "2026-09-12",
+        "action": "Quellenbeleg geprüft und Bild für vollständige Katalogabdeckung ergänzt"
+      }
+    ]
+  },
   "pokemon-unbound": {
     mediaId: "media-pokemon-unbound-01",
     image: "assets/games/pokemon-unbound.webp",

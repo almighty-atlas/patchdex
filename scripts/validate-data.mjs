@@ -1,4 +1,4 @@
-import { access } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import { resolve } from "node:path";
 
 globalThis.window = {};
@@ -30,15 +30,29 @@ for (const game of games) {
   if (!Array.isArray(game.tags) || game.tags.length < 2) errors.push(`${game.slug}: mindestens zwei Tags erwartet`);
   if (new Set(game.tags).size !== game.tags.length) errors.push(`${game.slug}: doppelte Tags`);
   await access(resolve("games", game.slug, "index.html")).catch(() => errors.push(`${game.slug}: statische Detailseite fehlt`));
+  if (!media[game.slug]) errors.push(`${game.slug}: Vorschaubild fehlt im Medienmanifest`);
 }
 
+const mediaIds = new Set();
 for (const [slug, item] of Object.entries(media)) {
+  if (mediaIds.has(item.mediaId)) errors.push(`${slug}: doppelte Medien-ID ${item.mediaId}`);
+  mediaIds.add(item.mediaId);
+  if (!["cover", "contain", "screenshot"].includes(item.imageFit)) errors.push(`${slug}: unbekannte Bilddarstellung`);
   if (!games.some(game => game.slug === slug)) errors.push(`${slug}: Medium ohne Spieleintrag`);
   for (const key of ["mediaId", "image", "imageAlt", "imageKind", "imageSourceLabel", "imageSourceUrl", "rightsStatus", "retrievedAt", "creator", "license", "history"]) {
     if (item[key] === undefined) errors.push(`${slug}: Medienfeld ${key} fehlt`);
   }
   if (item.enabled && !["freigegeben", "creative-commons"].includes(item.rightsStatus)) warnings.push(`${slug}: aktives Medium mit ungeklärten Rechten`);
   await access(resolve(item.image)).catch(() => errors.push(`${slug}: lokale Bilddatei fehlt`));
+  const bytes = await readFile(resolve(item.image)).catch(() => null);
+  if (bytes) {
+    const signature = bytes.subarray(0, 12);
+    const isImage = signature.subarray(0, 8).equals(Buffer.from([137,80,78,71,13,10,26,10]))
+      || (signature[0] === 255 && signature[1] === 216 && signature[2] === 255)
+      || (signature.toString("ascii", 0, 4) === "RIFF" && signature.toString("ascii", 8, 12) === "WEBP")
+      || /^GIF8[79]a/.test(signature.toString("ascii"));
+    if (!isImage) errors.push(`${slug}: Datei ist kein unterstütztes Rasterbild`);
+  }
 }
 
 const oldSources = games.filter(game => Date.now() - new Date(`${game.reviewedAt}T00:00:00Z`) > 270 * 86400000);
