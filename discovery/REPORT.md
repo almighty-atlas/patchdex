@@ -6,14 +6,16 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-09-13T17:29:54\.860Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-09-13T17:29:54\.860Z | 3 Seiten; weitere Seiten offen |
+| PokéCommunity · ROM Hacks Showcase | error | 2026-09-13T17:29:54\.860Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-09-13T17:51:14\.637Z | 9 Seiten; weitere Seiten offen |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-13T17:29:54\.860Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-09-13T17:29:54\.860Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-13T17:51:14\.637Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-09-13T17:51:14\.637Z | not-applicable |
+
+Fehler pokecommunity: robots\.txt nicht prüfbar: HTTP 403
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +24,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-163 Funde; 163 zur Prüfung.
+235 Funde; 235 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -56,7 +58,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-14b17189b33e6d8d` · Status: new
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-odyssey-complete-v4-1-1.488536/>
-- Mögliche Zuordnung: pokemon-odyssey (same-url)
+- Mögliche Zuordnung: pokemon-odyssey (same-url), candidate-ae2cef41bb59a0ab (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokemon Fire Red Reignited/Leaf Green Regrown \(Decomp Hack\) \(V2\.1 OUT\)
@@ -1164,3 +1166,507 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-grey-full-version-available.539211/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T17:29:54\.860Z
+
+### Pokémon Mundo Misterioso: Elemento Eterno
+
+- ID: `candidate-a3e9fa56a01099f5` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mundo-misterioso-elemento-eterno/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Mewtwo Liberation
+
+- ID: `candidate-91616f023fc6375b` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mewtwo-liberation/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon FlashBack 2
+
+- ID: `candidate-fa73109d7884dea8` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-flashback-2-2/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Castform: Climate Crisis
+
+- ID: `candidate-5b53e2b98ea2add1` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-castform-climate-crisis/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Guardianes del Orbe
+
+- ID: `candidate-25235e114004ebe7` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-guardianes-del-orbe/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon: Champion's Double Adventure
+
+- ID: `candidate-1240f382d61747f1` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-champion-s-double-adventure/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Odyssey
+
+- ID: `candidate-ae2cef41bb59a0ab` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-odyssey/>
+- Mögliche Zuordnung: pokemon-odyssey (same-name)
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Consonancia
+
+- ID: `candidate-96904f5cb1f6360d` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-consonancia/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### PokéMate \(ポケメ～ト\)
+
+- ID: `candidate-909061920797b181` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemate/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Burnt Horizon
+
+- ID: `candidate-5ddd0ae419551824` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-burnt-horizon/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### PokéMate 3D Unity
+
+- ID: `candidate-327a6abd1e76ca3d` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemate-3d-unity/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Panteón
+
+- ID: `candidate-36c5faf4176334cf` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-panteon/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Sombras de Arceus
+
+- ID: `candidate-d5ae465533c749c1` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-sombras-de-arceus/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Platino Luminiscente
+
+- ID: `candidate-9a85b0c723c1a68f` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-platino-luminiscente/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Recharged Emerald
+
+- ID: `candidate-3beea9f0b33f27b7` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-recharged-emerald/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### ¡Pokémon Escape de la Mansión de Gengar\!
+
+- ID: `candidate-0d87979fb3d3874e` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-escape-de-la-mansion-de-gengar/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### PokéPark Fishing Rally Wii U
+
+- ID: `candidate-3b7e824045951f34` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokepark-fishing-rally-wii-u/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### PokéPark Fishing Rally 3DS
+
+- ID: `candidate-5a536cbff18c13d0` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokepark-fishing-rally-3ds/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Cuerpo de Cristal
+
+- ID: `candidate-eed2b6167f668efe` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-cuerpo-de-cristal/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokemon RE:Call
+
+- ID: `candidate-43bb10bf007629bb` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-re-call/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Bizarre
+
+- ID: `candidate-956a24d465f04e60` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-bizarre/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Edición Team Rocket
+
+- ID: `candidate-a376fb961df72881` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-edicion-team-rocket/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Pichu Playground
+
+- ID: `candidate-3085834873f80130` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-pichu-playground/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Continental
+
+- ID: `candidate-27279fcdc13dc2a0` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-continental/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Beta Gold Version
+
+- ID: `candidate-c9d7cad90755fe7c` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-beta-gold-version/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Dragon Ball Z Legend of Kakarot
+
+- ID: `candidate-1894eefc1ccfa1fa` · Status: new
+- Quelle: <https://whackahack.com/juegos/dragon-ball-z-legend-of-kakarot/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Royal
+
+- ID: `candidate-333765677a76b622` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-royal/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Mundo Misterioso Caminos Separados
+
+- ID: `candidate-862aefb18a7b8dac` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mundo-misterioso-caminos-separados/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Crónicas de Cintia
+
+- ID: `candidate-fe9053a5e4a6f5b6` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-cronicas-de-cintia/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Añil
+
+- ID: `candidate-33dccff12ca24982` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-anil/>
+- Mögliche Zuordnung: pokemon-anil (same-name)
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Amatista
+
+- ID: `candidate-0803615a78c1612b` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-amatista-2/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Awakening
+
+- ID: `candidate-3480f44419ff7eff` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-awakening/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Mundo Misterioso - Siete Sinfonías
+
+- ID: `candidate-199d2dd1869304ec` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mundo-misterioso-siete-sinfonias/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Eclesia
+
+- ID: `candidate-4398102504c93026` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-eclesia/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Fósforo
+
+- ID: `candidate-16d46b6cd697969b` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-fosforo/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### Pokémon Turwig's Target Smash 3D
+
+- ID: `candidate-f5714cad610b57d5` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-turwig-s-target-smash-3d/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:44:05\.684Z
+
+### PokéROM Sanctuary
+
+- ID: `candidate-638ad7c4099b78fe` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokerom-sanctuary/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Old World Dawn
+
+- ID: `candidate-ed1d2afdcf31f211` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-old-world-dawn/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon E-Reader Minigame Collection
+
+- ID: `candidate-77c01ebeccd02ea9` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-e-reader-minigame-collection/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Mega Viaje
+
+- ID: `candidate-df186490900e4bea` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mega-viaje/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Lavender
+
+- ID: `candidate-8ba7474b3628864b` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-lavender/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Lavender Tales
+
+- ID: `candidate-9d9e0e049cf39206` · Status: new
+- Quelle: <https://whackahack.com/juegos/lavender-tales/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon: La Leyenda de Oak
+
+- ID: `candidate-84bb50f9eaa917d8` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-la-leyenda-de-oak/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Flora Sky Rebirth
+
+- ID: `candidate-a26f7e9c9e768a7a` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-flora-sky-rebirth/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Dark Worship
+
+- ID: `candidate-b3c4cfc08df1f722` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-dark-worship/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Brown
+
+- ID: `candidate-e9c6fef8ec558463` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-brown/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Crossed Universes
+
+- ID: `candidate-d3c65d9f3436edfb` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-crossed-universes/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Tales of the Outskirt Stand
+
+- ID: `candidate-04f899c03e9c3d2d` · Status: new
+- Quelle: <https://whackahack.com/juegos/tales-of-the-outskirt-stand/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Jukebox
+
+- ID: `candidate-d18596a8236dc45c` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-jukebox/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokemon Tactics
+
+- ID: `candidate-c15a0d54534da7c2` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-tactics/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Unbreakable Ties
+
+- ID: `candidate-ccb87515ad7d5c15` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-unbreakable-ties/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon SkyBlue
+
+- ID: `candidate-4e560271171cb592` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-skyblue/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Sueño Eterno y Pesadilla Eterna
+
+- ID: `candidate-7dc43f025d9777c8` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-sueno-eterno-y-pesadilla-eterna/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Abismal
+
+- ID: `candidate-5afa5c1e7b9c41bf` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-abismal/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Poketale
+
+- ID: `candidate-6b8f2ac1fc73f4e3` · Status: new
+- Quelle: <https://whackahack.com/juegos/poketale/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Roseta
+
+- ID: `candidate-9d5964921f9972a5` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-roseta/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon God Version
+
+- ID: `candidate-51cc3e0b035b9b3d` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-god-version/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Mundo Misterioso El Día Libre de Spanky y Mutchell
+
+- ID: `candidate-9d1fa754d7649986` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mundo-misterioso-el-dia-libre-de-spanky-y-mutchell/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Stadium Club
+
+- ID: `candidate-90fa180fb68f801b` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-stadium-club/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon RS Pinball Recolor
+
+- ID: `candidate-ffbfe19893ce37d0` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-rs-pinball-recolor/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Yellow Supreme
+
+- ID: `candidate-540c0c42ec1c7034` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-yellow-supreme/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Berilo
+
+- ID: `candidate-c36b0b2329c89995` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-berilo/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Reloaded
+
+- ID: `candidate-b71f6fa7c14b707e` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-reloaded/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Pro
+
+- ID: `candidate-c87db7c0a92c050f` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-pro/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Z
+
+- ID: `candidate-04d8ab7e14e6c6d7` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-z/>
+- Mögliche Zuordnung: pokemon-z (same-name)
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Sushi-Go-Round-Unity
+
+- ID: `candidate-44f697b4c7fe83b5` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-sushi-go-round-unity/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon The Fall of Heroes
+
+- ID: `candidate-6eda50abcebb8623` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-the-fall-of-heroes/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Mundo Misterioso Episodio Especial 0 En un pasado oscuro
+
+- ID: `candidate-bed6359578aeadae` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-mundo-misterioso-episodio-especial-0-en-un-pasado-oscuro/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### PokéPark Fishing Rally 3D Unity
+
+- ID: `candidate-f27934fdb4048ad7` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokepark-fishing-rally-3d-unity/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Rock Harden
+
+- ID: `candidate-28e5a5d56289e8b3` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-rock-harden/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Magikarp Splash
+
+- ID: `candidate-2054dfa15b78ac17` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-magikarp-splash/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
+
+### Pokémon Snore War
+
+- ID: `candidate-eed82dbeda0b1a44` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-snore-war/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-13T17:51:30\.754Z
