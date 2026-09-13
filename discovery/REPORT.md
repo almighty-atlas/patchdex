@@ -24,7 +24,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-468 Funde; 462 zur Prüfung.
+468 Funde; 456 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -93,7 +93,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-73d77e672a6bf746` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/heart-soul-completed-johto-gba-decomp-hack-v2-0-2-out-now.538287/>
-- Mögliche Zuordnung: pokemon-heart-and-soul (same-url)
+- Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Modern Emerald 3\.5 \(OPEN SOURCE\!\) - Double Speed battles, Following Pokémon, Better Battle Frontier, and more\!
@@ -112,14 +112,14 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Space World Crystal - Beta 4\.1 available
 
-- ID: `candidate-c55f8817751c46e0` · Status: new · Quelle geändert
+- ID: `candidate-c55f8817751c46e0` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/space-world-crystal-beta-4-1-available.414556/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-space-world-crystal (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Vestiges WAH \[COMPLETE - v1\.2\.0\]
 
-- ID: `candidate-67de18391e70a1ca` · Status: new · Quelle geändert
+- ID: `candidate-67de18391e70a1ca` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-vestiges-wah-complete-v1-2-0.543733/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -161,16 +161,16 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokémon GS Chronicles \| Current Build 2\.7\.6 \| Next Version Progress Update 8/25/2026
 
-- ID: `candidate-99da90188055c2db` · Status: new
+- ID: `candidate-99da90188055c2db` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-gs-chronicles-current-build-2-7-6-next-version-progress-update-8-25-2026.340232/>
-- Mögliche Zuordnung: candidate-2e9ce14692d74e4e (name-in-release-title)
+- Mögliche Zuordnung: pokemon-gs-chronicles (name-in-release-title), candidate-2e9ce14692d74e4e (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Tourmaline \(v1\.1\.1 Released 02/09/2026\)
 
-- ID: `candidate-ce8a50a2e6bc8266` · Status: new · Quelle geändert
+- ID: `candidate-ce8a50a2e6bc8266` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-tourmaline-v1-1-1-released-02-09-2026.527425/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-tourmaline (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Team Rocket Edition: Dragonsden Version - Kanto/Sevii/Johto \| Next release: DLC \(season 4\)
@@ -268,7 +268,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-691af73e60c1515d` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-peridot-version-complete.435205/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-peridot (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Refined Platinum Overhaul \[COMPLETE\]
@@ -322,16 +322,16 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Sweet 2th - Sugary Sweet Seconds\! 8/21/2017 bugfix available
 
-- ID: `candidate-44b10f0ebf355664` · Status: new
+- ID: `candidate-44b10f0ebf355664` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-sweet-2th-sugary-sweet-seconds-8-21-2017-bugfix-available.381601/>
-- Mögliche Zuordnung: candidate-1ed15db4b8b962f2 (name-in-release-title), candidate-952dabd79f36553b (name-in-release-title)
+- Mögliche Zuordnung: pokemon-sweet-version (name-in-release-title), pokemon-sweet-2th (same-url), candidate-1ed15db4b8b962f2 (name-in-release-title), candidate-952dabd79f36553b (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokemon Sweet Version v1\.0
 
-- ID: `candidate-c324323692b0dc16` · Status: new
+- ID: `candidate-c324323692b0dc16` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-sweet-version-v1-0.332437/>
-- Mögliche Zuordnung: candidate-952dabd79f36553b (name-in-release-title)
+- Mögliche Zuordnung: pokemon-sweet-version (same-url), candidate-952dabd79f36553b (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Hoenn's Last Wish \(version 0\.4\.7\)
@@ -1913,7 +1913,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-2e9ce14692d74e4e` · Status: new
 - Quelle: <https://whackahack.com/juegos/pokemon-gs-chronicles/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-gs-chronicles (same-name)
 - Erstmals gefunden: 2026-09-13T17:54:56\.444Z
 
 ### Pokémon Mundo Misterioso Wigglytuff y su Bizarra Aventura
@@ -2928,7 +2928,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-1ed15db4b8b962f2` · Status: new
 - Quelle: <https://whackahack.com/juegos/pokemon-sweet-2th/>
-- Mögliche Zuordnung: candidate-952dabd79f36553b (name-in-release-title)
+- Mögliche Zuordnung: pokemon-sweet-version (name-in-release-title), pokemon-sweet-2th (same-name), candidate-952dabd79f36553b (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T17:55:21\.048Z
 
 ### Ruby Destiny: Life of Guardians
@@ -2970,7 +2970,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-952dabd79f36553b` · Status: new
 - Quelle: <https://whackahack.com/juegos/pokemon-sweet/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-sweet-version (same-name)
 - Erstmals gefunden: 2026-09-13T17:55:21\.048Z
 
 ### Pokémon Verde Hierba

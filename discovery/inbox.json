@@ -466,12 +466,7 @@
         "targetSlug": "pokemon-heart-and-soul"
       }
     ],
-    "matches": [
-      {
-        "target": "pokemon-heart-and-soul",
-        "reason": "same-url"
-      }
-    ],
+    "matches": [],
     "draft": null,
     "review": {
       "reviewer": "Patchdex-Redaktion",
@@ -569,7 +564,7 @@
     "id": "candidate-c55f8817751c46e0",
     "title": "Space World Crystal - Beta 4.1 available",
     "url": "https://www.pokecommunity.com/threads/space-world-crystal-beta-4-1-available.414556/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -599,18 +594,41 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "c768fd273b6556a0c7a959de96ce02e761bae06f6128860e55e72b33e8a99912"
+      },
+      {
+        "at": "2026-09-13T18:30:05.915Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-13T18:33:19.048Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-space-world-crystal"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-space-world-crystal",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-13",
+      "notes": "Projektthread geprüft: vollständig spielbarer Crystal-Umbau mit Pokémon und Grafiken aus der Space-World-Demo von 1997, Beta 4.1.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/space-world-crystal-beta-4-1-available.414556/"
+      ],
+      "at": "2026-09-13T18:33:19.048Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-space-world-crystal"
   },
   {
     "id": "candidate-67de18391e70a1ca",
     "title": "Pokémon Vestiges WAH [COMPLETE - v1.2.0]",
     "url": "https://www.pokecommunity.com/threads/pok%C3%A9mon-vestiges-wah-complete-v1-2-0.543733/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -640,12 +658,30 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "4fb2e46ff41f0327daa754e0251c8f79a49772af586cbad13bab4718f19b8b4c"
+      },
+      {
+        "at": "2026-09-13T18:30:12.125Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-13T18:33:25.514Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-vestiges-wah"
       }
     ],
     "matches": [],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-13",
+      "notes": "Projektthread geprüft: vollständiger spanischer Emerald-Battle-Challenge-Hack zum 20-jährigen Bestehen von Whack a Hack, Version 1.2.0.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pok%C3%A9mon-vestiges-wah-complete-v1-2-0.543733/"
+      ],
+      "at": "2026-09-13T18:33:25.514Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-vestiges-wah"
   },
   {
     "id": "candidate-8c99b4b9302f6fdd",
@@ -860,7 +896,7 @@
     "id": "candidate-99da90188055c2db",
     "title": "Pokémon GS Chronicles | Current Build 2.7.6 | Next Version Progress Update 8/25/2026",
     "url": "https://www.pokecommunity.com/threads/pok%C3%A9mon-gs-chronicles-current-build-2-7-6-next-version-progress-update-8-25-2026.340232/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -884,22 +920,46 @@
         "action": "discovered",
         "sourceId": "pokecommunity",
         "fingerprint": "cd3966db2b4788ec85c21d73147fb2558fe4840f0d18d8ce77c21b35e1726e38"
+      },
+      {
+        "at": "2026-09-13T18:30:01.811Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-13T18:33:14.846Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-gs-chronicles"
       }
     ],
     "matches": [
+      {
+        "target": "pokemon-gs-chronicles",
+        "reason": "name-in-release-title"
+      },
       {
         "target": "candidate-2e9ce14692d74e4e",
         "reason": "name-in-release-title"
       }
     ],
     "draft": null,
-    "review": null
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-13",
+      "notes": "Projektthread und offizielle Ruki-Studios-Seite geprüft: laufender FireRed-Umbau von Johto, aktueller Build 2.7.6.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pok%C3%A9mon-gs-chronicles-current-build-2-7-6-next-version-progress-update-8-25-2026.340232/",
+        "https://rukistudios.wixsite.com/gschronicles/"
+      ],
+      "at": "2026-09-13T18:33:14.846Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-gs-chronicles"
   },
   {
     "id": "candidate-ce8a50a2e6bc8266",
     "title": "Pokémon Tourmaline (v1.1.1 Released 02/09/2026)",
     "url": "https://www.pokecommunity.com/threads/pok%C3%A9mon-tourmaline-v1-1-1-released-02-09-2026.527425/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -929,12 +989,36 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "253ca1506b44d49e48e4a241ea5707b5127da91dd2b30b6600c8f9c401402e10"
+      },
+      {
+        "at": "2026-09-13T18:30:03.841Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-13T18:33:16.941Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-tourmaline"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-tourmaline",
+        "reason": "name-in-release-title"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-13",
+      "notes": "Projektthread und Entwickler-Repository geprüft: vollständiges Emerald-Sequel in der Region Issho, Version 1.1.1.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pok%C3%A9mon-tourmaline-v1-1-1-released-02-09-2026.527425/",
+        "https://github.com/surskitty/tourmaline"
+      ],
+      "at": "2026-09-13T18:33:16.941Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-tourmaline"
   },
   {
     "id": "candidate-63825aca1d444b98",
@@ -1499,7 +1583,12 @@
         "targetSlug": "pokemon-peridot"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-peridot",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
     "review": {
       "reviewer": "Patchdex-Redaktion",
@@ -1797,7 +1886,7 @@
     "id": "candidate-44b10f0ebf355664",
     "title": "Pokemon Sweet 2th - Sugary Sweet Seconds! 8/21/2017 bugfix available",
     "url": "https://www.pokecommunity.com/threads/pokemon-sweet-2th-sugary-sweet-seconds-8-21-2017-bugfix-available.381601/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T08:04:59.144Z",
     "aliases": [],
@@ -1821,9 +1910,26 @@
         "action": "discovered",
         "sourceId": "pokecommunity",
         "fingerprint": "c050fe72a858eff231ff8c1572fddf7dd5dbc200702c0bdbc4bd586eb1181430"
+      },
+      {
+        "at": "2026-09-13T18:30:10.062Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-13T18:33:23.351Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-sweet-2th"
       }
     ],
     "matches": [
+      {
+        "target": "pokemon-sweet-version",
+        "reason": "name-in-release-title"
+      },
+      {
+        "target": "pokemon-sweet-2th",
+        "reason": "same-url"
+      },
       {
         "target": "candidate-1ed15db4b8b962f2",
         "reason": "name-in-release-title"
@@ -1834,13 +1940,23 @@
       }
     ],
     "draft": null,
-    "review": null
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-13",
+      "notes": "Originalen Projektthread geprüft: englischer FireRed-Nachfolger mit dokumentiertem Bugfix-Patch vom 21.08.2017.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pokemon-sweet-2th-sugary-sweet-seconds-8-21-2017-bugfix-available.381601/"
+      ],
+      "at": "2026-09-13T18:33:23.351Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-sweet-2th"
   },
   {
     "id": "candidate-c324323692b0dc16",
     "title": "Pokemon Sweet Version v1.0",
     "url": "https://www.pokecommunity.com/threads/pokemon-sweet-version-v1-0.332437/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T08:04:59.144Z",
     "aliases": [],
@@ -1864,16 +1980,39 @@
         "action": "discovered",
         "sourceId": "pokecommunity",
         "fingerprint": "adbbc299e4666422b1a2d3bf409c1b2445888d94743854e643b3c28290d5eec0"
+      },
+      {
+        "at": "2026-09-13T18:30:07.987Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-13T18:33:21.204Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-sweet-version"
       }
     ],
     "matches": [
+      {
+        "target": "pokemon-sweet-version",
+        "reason": "same-url"
+      },
       {
         "target": "candidate-952dabd79f36553b",
         "reason": "name-in-release-title"
       }
     ],
     "draft": null,
-    "review": null
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-13",
+      "notes": "Originalen Projektthread geprüft: vollständiger englischer FireRed-Hack, Version 1.0 mit dokumentiertem Bugfix-Patch.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pokemon-sweet-version-v1-0.332437/"
+      ],
+      "at": "2026-09-13T18:33:21.204Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-sweet-version"
   },
   {
     "id": "candidate-d18211444dea1b5e",
@@ -10736,7 +10875,12 @@
         "fingerprint": "1ec30cb9b01d8d48202619660dcd79d9870b15a861eb24f788308dd152a50fd8"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-gs-chronicles",
+        "reason": "same-name"
+      }
+    ],
     "draft": null,
     "review": null
   },
@@ -15738,6 +15882,14 @@
     ],
     "matches": [
       {
+        "target": "pokemon-sweet-version",
+        "reason": "name-in-release-title"
+      },
+      {
+        "target": "pokemon-sweet-2th",
+        "reason": "same-name"
+      },
+      {
         "target": "candidate-952dabd79f36553b",
         "reason": "name-in-release-title"
       }
@@ -15945,7 +16097,12 @@
         "fingerprint": "d4a9b921422ffd504925873975896c31c61a98089d32580aa892561a1bba0917"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-sweet-version",
+        "reason": "same-name"
+      }
+    ],
     "draft": null,
     "review": null
   },

@@ -86,8 +86,8 @@ Dieses Dokument ist die zentrale Arbeitsliste für den Übergang vom statischen 
 
 ## Bereits im MVP erledigt
 
-- 50 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
+- 56 kuratierte Spieleinträge mit statischen, teilbaren Detailseiten.
 - Suche, Filter, Sortierung, Merkliste, Dark Mode und ähnliche Spiele.
 - „Sicher starten“-Hinweise und alternde Quellenampel.
-- 50 lokale Motive für alle Spiele mit Quellenangabe, Medien-ID und einzelnem Deaktivierungsschalter.
+- 56 lokale Motive für alle Spiele mit Quellenangabe, Medien-ID und einzelnem Deaktivierungsschalter.
 - Entfernungspfad für Bild, Spieleintrag und Korrektur inklusive `enabled: false`-Schalter.

@@ -2,6 +2,8 @@
 
 ## 13.09.2026
 
+- Zweite geprüfte Discovery-Runde mit GS Chronicles, Tourmaline, Space World Crystal, Sweet Version, Sweet 2th und Vestiges WAH samt sechs lokal archivierten Screenshots ergänzt.
+- Sweet 2th als Nachfolger von Sweet Version verknüpft; das Archiv umfasst nun 56 Spiele mit vollständiger Bildabdeckung.
 - Sechs geprüfte Discovery-Funde in den Katalog übernommen: Refined Gold, WoofGold & MasterSilver, Dittomon: Mewtation, Heart & Soul, Elysium und Peridot.
 - Für alle sechs neuen Einträge lokal archivierte, visuell geprüfte Screenshots samt Quellen- und Rechtestatus ergänzt; das Archiv umfasst damit 50 Spiele mit 50 Motiven.
 - Pokémon Heart & Soul anhand der offiziellen Projektseite auf Version 2.0.4 aktualisiert.
