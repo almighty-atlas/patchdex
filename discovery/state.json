@@ -1,35 +1,35 @@
 {
   "pokecommunity": {
-    "failures": 1,
-    "lastAttempt": "2026-09-13T17:43:49.746Z",
+    "failures": 2,
+    "lastAttempt": "2026-09-13T17:51:14.637Z",
     "lastSuccess": "2026-09-13T17:29:54.860Z",
     "error": "robots.txt nicht prüfbar: HTTP 403",
     "observed": 45
   },
   "whackahack": {
     "failures": 0,
-    "lastAttempt": "2026-09-13T17:44:05.684Z",
+    "lastAttempt": "2026-09-13T17:51:30.754Z",
     "backfill": {
-      "nextUrl": "https://whackahack.com/juegos/?page=7",
-      "pages": 6,
+      "nextUrl": "https://whackahack.com/juegos/?page=10",
+      "pages": 9,
       "complete": false,
-      "lastSuccess": "2026-09-13T17:44:05.684Z"
+      "lastSuccess": "2026-09-13T17:51:30.754Z"
     },
-    "lastSuccess": "2026-09-13T17:43:49.746Z",
+    "lastSuccess": "2026-09-13T17:51:14.637Z",
     "error": null,
     "observed": 36
   },
   "github-projects": {
     "failures": 0,
-    "lastAttempt": "2026-09-13T17:43:49.746Z",
-    "lastSuccess": "2026-09-13T17:43:49.746Z",
+    "lastAttempt": "2026-09-13T17:51:14.637Z",
+    "lastSuccess": "2026-09-13T17:51:14.637Z",
     "error": null,
     "observed": 79
   },
   "community-submissions": {
     "failures": 0,
-    "lastAttempt": "2026-09-13T17:43:49.746Z",
-    "lastSuccess": "2026-09-13T17:43:49.746Z",
+    "lastAttempt": "2026-09-13T17:51:14.637Z",
+    "lastSuccess": "2026-09-13T17:51:14.637Z",
     "error": null,
     "observed": 0
   }
