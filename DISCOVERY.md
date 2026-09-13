@@ -156,8 +156,9 @@ aktualisiert einen PR auf `automation/discovery`. Ein offener PR wird weiterverw
 normal in diesen Branch gemergt; Konflikte stoppen den Lauf. Kein Force-Push, kein automatisches Merge.
 Der Discovery-PR veröffentlicht keine Spiele; redaktionelle Freigaben erfolgen separat.
 
-Quellenfehler erscheinen im Report und als fehlgeschlagener Workflow; erfolgreiche Teilergebnisse
-bleiben im PR erhalten. Fehlende PR-Rechte und Mergekonflikte stoppen sichtbar. Actions-Mitteilungen
+Quellenfehler erscheinen im Report und als Workflow-Warnung; erfolgreiche Teilergebnisse bleiben
+im PR erhalten. Der Lauf schlägt nur bei technischen Fehlern außerhalb einzelner Quellen fehl, etwa
+bei ungültigen Daten, fehlenden PR-Rechten oder Mergekonflikten. Actions-Mitteilungen
 aktivieren und die letzte Laufzeit prüfen: Zeitpläne können sich verzögern oder bei Inaktivität
 deaktiviert werden. Ein ganz ausgebliebener Lauf kann sich nicht selbst melden; dafür wäre ein
 unabhängiger Watchdog erforderlich. `discovery:report` berechnet veraltete Quellen beim Aufruf neu.

@@ -67,6 +67,8 @@ jobs:
           if test -z "$discovery_pr" && ! git diff --quiet origin/main HEAD; then
             gh pr create --base main --head automation/discovery --title 'Discovery: neue Funde und Quellenstatus' --body 'Automatische, ungeprüfte Funde. Bitte discovery/REPORT.md und die Quellenfehler prüfen. Dieser PR ändert keine veröffentlichten Spiele. Übernahmen erfolgen separat über discovery:review.'
           fi
-      - name: Surface source failures
+      - name: Surface source warnings
         if: steps.scan.outcome == 'failure' || steps.backfill.outcome == 'failure'
-        run: exit 1
+        run: |
+          echo '::warning title=Discovery source unavailable::At least one source could not be checked. Successful results were preserved; see discovery/REPORT.md in the proposal PR.'
+          echo 'Source outages do not fail the complete workflow while other collection and validation steps succeeded.' >> "$GITHUB_STEP_SUMMARY"
