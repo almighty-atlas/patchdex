@@ -14,15 +14,15 @@ Danach `http://localhost:8080` öffnen.
 
 ## Stand des MVP
 
-- 56 kuratierte Einträge aus `games-data.js` und `games-reviewed.js`
+- 62 kuratierte Einträge aus `games-data.js` und `games-reviewed.js`
 - Suche über Titel, Beschreibung, Basis, Sprache und Tags
 - Facettenfilter mit automatisch berechneten Zählern
 - redaktionelle Sortierung und A–Z-Sortierung
 - Detailansicht mit Quellentyp, Version und Prüfdatum
-- 56 lokal gespeicherte Vorschaubilder mit Herkunftsseite, eigener Medien-ID und dokumentiertem Rechtestatus
+- 62 lokal gespeicherte Vorschaubilder mit Herkunftsseite, eigener Medien-ID und dokumentiertem Rechtestatus
 - automatisch alternde Quellenampel und „Sicher starten“-Hinweise
 - tagbasierte Empfehlungen für ähnliche Spiele
-- 56 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten
+- 62 statisch erzeugte, teilbare Detailseiten mit strukturierten Daten
 - echte externe Links mit `nofollow`, `noopener` und `noreferrer`
 - persistente Merkliste und Dark Mode via Local Storage
 - Raster- und Listenansicht mit allen passenden Treffern

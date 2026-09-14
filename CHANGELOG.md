@@ -1,5 +1,11 @@
 # Änderungsprotokoll
 
+## 14.09.2026
+
+- Dritte geprüfte Discovery-Runde mit FireRed Reignited & LeafGreen Regrown, FireRed: Infinity Horizon, Refined Platinum, Core Crystal, Bubble Blue und TCG Neo übernommen.
+- Für alle sechs Spiele lokal archivierte, visuell geprüfte Motive mit nachvollziehbarer Bildquelle und dokumentiertem Rechtestatus ergänzt; das Archiv umfasst nun 62 Spiele mit vollständiger Bildabdeckung.
+- Core Crystal als Abzweigung von Crystal Legacy verknüpft; FireRed Reignited und LeafGreen Regrown sind als gemeinsame Variantenveröffentlichung erfasst.
+
 ## 13.09.2026
 
 - Zweite geprüfte Discovery-Runde mit GS Chronicles, Tourmaline, Space World Crystal, Sweet Version, Sweet 2th und Vestiges WAH samt sechs lokal archivierten Screenshots ergänzt.

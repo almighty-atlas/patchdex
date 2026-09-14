@@ -257,7 +257,7 @@
     "id": "candidate-735f9fc2b3ca6e44",
     "title": "Pokemon Fire Red Reignited/Leaf Green Regrown (Decomp Hack) (V2.1 OUT)",
     "url": "https://www.pokecommunity.com/threads/pokemon-fire-red-reignited-leaf-green-regrown-decomp-hack-v2-1-out.535393/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -287,12 +287,36 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "a249b703bd272736b73c91b7e927b32c9d9b48f27fd7a9d9fadbc041744879fe"
+      },
+      {
+        "at": "2026-09-14T07:38:04.972Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-14T07:39:40.215Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-firered-reignited-leafgreen-regrown"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-firered-reignited-leafgreen-regrown",
+        "reason": "name-in-release-title"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-14",
+      "notes": "Projektthread und offizielles Entwickler-Release geprüft: vollständiges FRLG-Doppelprojekt; aktuelles GitHub-Release v2.15.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pokemon-fire-red-reignited-leaf-green-regrown-decomp-hack-v2-1-out.535393/",
+        "https://github.com/Bruhcation/pokefireredlegacy/releases/tag/v2.15"
+      ],
+      "at": "2026-09-14T07:39:40.215Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-firered-reignited-leafgreen-regrown"
   },
   {
     "id": "candidate-a687469f8cecdec5",
@@ -669,7 +693,12 @@
         "targetSlug": "pokemon-vestiges-wah"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-vestiges-wah",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
     "review": {
       "reviewer": "Patchdex-Redaktion",
@@ -1384,7 +1413,7 @@
     "id": "candidate-a225851be8c59a21",
     "title": "Pokémon Fire Red: Infinity Horizon (Complete) - V1.1 OUT NOW!",
     "url": "https://www.pokecommunity.com/threads/pok%C3%A9mon-fire-red-infinity-horizon-complete-v1-1-out-now.541845/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -1414,12 +1443,35 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "ae88aa8bd16f9e62a494bc51748d38acaedb55f2341ce8c04e8a00df2d93936b"
+      },
+      {
+        "at": "2026-09-14T07:38:07.046Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-14T07:39:42.297Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-firered-infinity-horizon"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-firered-infinity-horizon",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-14",
+      "notes": "Projektthread geprüft: vollständiger englischer FireRed-Hack mit erweitertem Kanto und mehr als 30 Nebenaufgaben, Version 1.1.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pok%C3%A9mon-fire-red-infinity-horizon-complete-v1-1-out-now.541845/"
+      ],
+      "at": "2026-09-14T07:39:42.297Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-firered-infinity-horizon"
   },
   {
     "id": "candidate-6006a9134c96ecba",
@@ -1606,7 +1658,7 @@
     "id": "candidate-17840613e2628ab4",
     "title": "Refined Platinum Overhaul [COMPLETE]",
     "url": "https://www.pokecommunity.com/threads/refined-platinum-overhaul-complete.534483/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -1636,12 +1688,35 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "3e4cda16c21da4aa306ea90341d9b69ab505afc01df8e4f0935a80db643e4c9b"
+      },
+      {
+        "at": "2026-09-14T07:38:09.162Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-14T07:39:44.434Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-refined-platinum"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-refined-platinum",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-14",
+      "notes": "Projektthread geprüft: vollständiger Platinum-Overhaul mit überarbeitetem Spielfluss und erweitertem nutzbarem Pokédex, Version 6.3.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/refined-platinum-overhaul-complete.534483/"
+      ],
+      "at": "2026-09-14T07:39:44.434Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-refined-platinum"
   },
   {
     "id": "candidate-d4dd30e277b4367a",
@@ -1729,7 +1804,7 @@
     "id": "candidate-89f2ab336c3cdcc6",
     "title": "Pokemon Core Crystal (v2.1.1)",
     "url": "https://www.pokecommunity.com/threads/pokemon-core-crystal-v2-1-1.538077/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -1759,12 +1834,35 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "0b3ddbc138db053b2f0d80504baaf5b758552daea52f11f08f8b49bf6d4e60b2"
+      },
+      {
+        "at": "2026-09-14T07:38:11.304Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-14T07:39:46.597Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-core-crystal"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-core-crystal",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-14",
+      "notes": "Projektthread geprüft: vollständiger Crystal-Umbau auf Basis von Crystal Legacy, aktueller Stand 2.1.1.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pokemon-core-crystal-v2-1-1.538077/"
+      ],
+      "at": "2026-09-14T07:39:46.597Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-core-crystal"
   },
   {
     "id": "candidate-43e211aeaade548a",
@@ -1811,7 +1909,7 @@
     "id": "candidate-66f2d369edf8f4fe",
     "title": "Pokemon: Bubble Blue v1.0.1 (small bug fixes + event tickets)",
     "url": "https://www.pokecommunity.com/threads/pokemon-bubble-blue-v1-0-1-small-bug-fixes-event-tickets.543123/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T17:29:54.860Z",
     "aliases": [],
@@ -1841,18 +1939,41 @@
         "action": "source-changed",
         "sourceId": "pokecommunity",
         "fingerprint": "439db5b1a250bd3377be643a43b081fdcec5e38cace497e906f553a036e7e655"
+      },
+      {
+        "at": "2026-09-14T07:38:13.436Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-14T07:39:48.811Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-bubble-blue"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-bubble-blue",
+        "reason": "same-url"
+      }
+    ],
     "draft": null,
-    "review": null,
-    "needsReview": true
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-14",
+      "notes": "Projektthread geprüft: vollständige Vanilla-Plus-Neufassung von FireRed durch Good Luck Erika, Version 1.0.1.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pokemon-bubble-blue-v1-0-1-small-bug-fixes-event-tickets.543123/"
+      ],
+      "at": "2026-09-14T07:39:48.811Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-bubble-blue"
   },
   {
     "id": "candidate-6f6f6193b65eb898",
     "title": "Pokemon TCG: Neo (V1.43 Update)",
     "url": "https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/",
-    "status": "new",
+    "status": "adopted",
     "firstSeen": "2026-09-13T08:04:59.144Z",
     "lastSeen": "2026-09-13T08:04:59.144Z",
     "aliases": [],
@@ -1876,11 +1997,30 @@
         "action": "discovered",
         "sourceId": "pokecommunity",
         "fingerprint": "7b10fea89b9926f7b312611a8925608b5054d7b35f9626b31113ac21cbec9d04"
+      },
+      {
+        "at": "2026-09-14T07:38:15.586Z",
+        "action": "draft-created"
+      },
+      {
+        "at": "2026-09-14T07:39:50.980Z",
+        "action": "adopted",
+        "targetSlug": "pokemon-tcg-neo"
       }
     ],
     "matches": [],
     "draft": null,
-    "review": null
+    "review": {
+      "reviewer": "Patchdex-Redaktion",
+      "reviewedAt": "2026-09-14",
+      "notes": "Projektthread geprüft: finaler vollständiger Kampf- und Kartenumbau des Pokémon Trading Card Game mit Gen-2-Sets, Version 1.43.",
+      "evidence": [
+        "https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/"
+      ],
+      "at": "2026-09-14T07:39:50.980Z"
+    },
+    "needsReview": false,
+    "targetSlug": "pokemon-tcg-neo"
   },
   {
     "id": "candidate-44b10f0ebf355664",
@@ -2376,7 +2516,12 @@
         "fingerprint": "1bf22c86a65e2f984c3393d8d9f7a6f1a6a2b3c5b1c4bc34cf9e3b5d78fdeae3"
       }
     ],
-    "matches": [],
+    "matches": [
+      {
+        "target": "pokemon-vestiges-wah",
+        "reason": "same-name"
+      }
+    ],
     "draft": null,
     "review": null,
     "needsReview": true

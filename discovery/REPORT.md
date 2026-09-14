@@ -24,7 +24,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-468 Funde; 456 zur Prüfung.
+468 Funde; 450 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -63,9 +63,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Fire Red Reignited/Leaf Green Regrown \(Decomp Hack\) \(V2\.1 OUT\)
 
-- ID: `candidate-735f9fc2b3ca6e44` · Status: new · Quelle geändert
+- ID: `candidate-735f9fc2b3ca6e44` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-fire-red-reignited-leaf-green-regrown-decomp-hack-v2-1-out.535393/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-firered-reignited-leafgreen-regrown (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### The New Kanto
@@ -121,7 +121,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-67de18391e70a1ca` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-vestiges-wah-complete-v1-2-0.543733/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-vestiges-wah (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon HeartGold Generations v2\.0
@@ -238,9 +238,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokémon Fire Red: Infinity Horizon \(Complete\) - V1\.1 OUT NOW\!
 
-- ID: `candidate-a225851be8c59a21` · Status: new · Quelle geändert
+- ID: `candidate-a225851be8c59a21` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-fire-red-infinity-horizon-complete-v1-1-out-now.541845/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-firered-infinity-horizon (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Definitive Platinum \[COMPLETE\]
@@ -273,9 +273,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Refined Platinum Overhaul \[COMPLETE\]
 
-- ID: `candidate-17840613e2628ab4` · Status: new · Quelle geändert
+- ID: `candidate-17840613e2628ab4` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/refined-platinum-overhaul-complete.534483/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-refined-platinum (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Oops All Eevees\!
@@ -294,9 +294,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Core Crystal \(v2\.1\.1\)
 
-- ID: `candidate-89f2ab336c3cdcc6` · Status: new · Quelle geändert
+- ID: `candidate-89f2ab336c3cdcc6` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-core-crystal-v2-1-1.538077/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-core-crystal (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Star Beasts - Comet Version
@@ -308,14 +308,14 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon: Bubble Blue v1\.0\.1 \(small bug fixes \+ event tickets\)
 
-- ID: `candidate-66f2d369edf8f4fe` · Status: new · Quelle geändert
+- ID: `candidate-66f2d369edf8f4fe` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-bubble-blue-v1-0-1-small-bug-fixes-event-tickets.543123/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-bubble-blue (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokemon TCG: Neo \(V1\.43 Update\)
 
-- ID: `candidate-6f6f6193b65eb898` · Status: new
+- ID: `candidate-6f6f6193b65eb898` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -394,7 +394,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-8ad43d884651cd92` · Status: new · Quelle geändert
 - Quelle: <https://whackahack.com/juegos/pokemon-vestigios-de-wah/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-vestiges-wah (same-name)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon: La Frontera Digital

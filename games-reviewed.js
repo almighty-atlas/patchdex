@@ -532,6 +532,272 @@ window.PATCHDEX_REVIEWED_GAMES = [
         "version": "1.2.0",
         "status": "Komplett"
       }
+    ],
+    "region": ""
+  },
+  {
+    "slug": "pokemon-firered-reignited-leafgreen-regrown",
+    "name": "Pokémon FireRed Reignited & LeafGreen Regrown",
+    "type": "ROM-Hack",
+    "engine": "GBA",
+    "status": "Komplett",
+    "language": "Englisch",
+    "base": "FireRed / LeafGreen",
+    "version": "2.15",
+    "sourceKind": "Entwickler-Release",
+    "sourceUrl": "https://github.com/Bruhcation/pokefireredlegacy/releases/tag/v2.15",
+    "featured": 0,
+    "color": "#b85a4c",
+    "symbol": "RR",
+    "tags": [
+      "Kanto",
+      "Vanilla Plus",
+      "Schwierigkeitsgrade"
+    ],
+    "description": "Zwei vollständige FRLG-Überarbeitungen mit neu abgestimmten Kämpfen, erweiterten Karten, allen Kanto- und Johto-Pokémon und wählbarer Schwierigkeit.",
+    "aliases": [
+      "Fire Red Reignited",
+      "Leaf Green Regrown"
+    ],
+    "developer": "Bruhcation / SpikeCation",
+    "availability": "Verfügbar",
+    "relations": [],
+    "id": 57,
+    "reviewedAt": "2026-09-14",
+    "editorialHistory": [
+      {
+        "at": "2026-09-14T07:39:40.215Z",
+        "candidateId": "candidate-735f9fc2b3ca6e44",
+        "reviewer": "Patchdex-Redaktion",
+        "notes": "Projektthread und offizielles Entwickler-Release geprüft: vollständiges FRLG-Doppelprojekt; aktuelles GitHub-Release v2.15.",
+        "evidence": [
+          "https://www.pokecommunity.com/threads/pokemon-fire-red-reignited-leaf-green-regrown-decomp-hack-v2-1-out.535393/",
+          "https://github.com/Bruhcation/pokefireredlegacy/releases/tag/v2.15"
+        ],
+        "version": "2.15",
+        "status": "Komplett"
+      }
+    ],
+    "region": "Kanto"
+  },
+  {
+    "slug": "pokemon-firered-infinity-horizon",
+    "name": "Pokémon FireRed: Infinity Horizon",
+    "type": "ROM-Hack",
+    "engine": "GBA",
+    "status": "Komplett",
+    "language": "Englisch",
+    "base": "FireRed",
+    "version": "1.1",
+    "sourceKind": "Community-Thread",
+    "sourceUrl": "https://www.pokecommunity.com/threads/pok%C3%A9mon-fire-red-infinity-horizon-complete-v1-1-out-now.541845/",
+    "featured": 0,
+    "color": "#4e7b9f",
+    "symbol": "IH",
+    "tags": [
+      "Kanto",
+      "Erkundung",
+      "Sidequests"
+    ],
+    "description": "Ein stark erweitertes Kanto-Abenteuer mit zahlreichen neuen Gebieten, sichtbaren Pokémon, Nebenaufgaben und anspruchsvolleren Trainerkämpfen.",
+    "aliases": [
+      "Pokemon Fire Red Infinity Horizon"
+    ],
+    "developer": "FeLoMeNaL",
+    "availability": "Verfügbar",
+    "relations": [],
+    "id": 58,
+    "reviewedAt": "2026-09-14",
+    "editorialHistory": [
+      {
+        "at": "2026-09-14T07:39:42.297Z",
+        "candidateId": "candidate-a225851be8c59a21",
+        "reviewer": "Patchdex-Redaktion",
+        "notes": "Projektthread geprüft: vollständiger englischer FireRed-Hack mit erweitertem Kanto und mehr als 30 Nebenaufgaben, Version 1.1.",
+        "evidence": [
+          "https://www.pokecommunity.com/threads/pok%C3%A9mon-fire-red-infinity-horizon-complete-v1-1-out-now.541845/"
+        ],
+        "version": "1.1",
+        "status": "Komplett"
+      }
+    ],
+    "region": "Kanto"
+  },
+  {
+    "slug": "pokemon-refined-platinum",
+    "name": "Pokémon Refined Platinum",
+    "type": "ROM-Hack",
+    "engine": "NDS",
+    "status": "Komplett",
+    "language": "Englisch",
+    "base": "Platinum",
+    "version": "6.3",
+    "sourceKind": "Community-Thread",
+    "sourceUrl": "https://www.pokecommunity.com/threads/refined-platinum-overhaul-complete.534483/",
+    "featured": 0,
+    "color": "#7b7194",
+    "symbol": "RP",
+    "tags": [
+      "Sinnoh",
+      "QoL",
+      "Rebalancing"
+    ],
+    "description": "Ein vollständiger Platinum-Overhaul mit größerer Pokémon-Auswahl, neu abgestimmten Trainern und erweitertem Hauptspiel und Postgame.",
+    "aliases": [
+      "Refined Platinum Overhaul"
+    ],
+    "developer": "Refined Platinum",
+    "availability": "Verfügbar",
+    "relations": [],
+    "id": 59,
+    "reviewedAt": "2026-09-14",
+    "editorialHistory": [
+      {
+        "at": "2026-09-14T07:39:44.434Z",
+        "candidateId": "candidate-17840613e2628ab4",
+        "reviewer": "Patchdex-Redaktion",
+        "notes": "Projektthread geprüft: vollständiger Platinum-Overhaul mit überarbeitetem Spielfluss und erweitertem nutzbarem Pokédex, Version 6.3.",
+        "evidence": [
+          "https://www.pokecommunity.com/threads/refined-platinum-overhaul-complete.534483/"
+        ],
+        "version": "6.3",
+        "status": "Komplett"
+      }
+    ],
+    "region": "Sinnoh"
+  },
+  {
+    "slug": "pokemon-core-crystal",
+    "name": "Pokémon Core Crystal",
+    "type": "ROM-Hack",
+    "engine": "GBC",
+    "status": "Komplett",
+    "language": "Englisch",
+    "base": "Crystal / Crystal Legacy",
+    "version": "2.1.1",
+    "sourceKind": "Community-Thread",
+    "sourceUrl": "https://www.pokecommunity.com/threads/pokemon-core-crystal-v2-1-1.538077/",
+    "featured": 0,
+    "color": "#4e91a8",
+    "symbol": "CC",
+    "tags": [
+      "Johto",
+      "QoL",
+      "Rebalancing"
+    ],
+    "description": "Eine auf Crystal Legacy aufbauende Johto-Überarbeitung mit neu abgestimmten Kämpfen, mehreren Schwierigkeitsgraden und zusätzlichen Komfortfunktionen.",
+    "aliases": [
+      "Pokemon Core Crystal"
+    ],
+    "developer": "",
+    "availability": "Verfügbar",
+    "relations": [
+      {
+        "kind": "fork-of",
+        "slug": "pokemon-crystal-legacy"
+      }
+    ],
+    "id": 60,
+    "reviewedAt": "2026-09-14",
+    "editorialHistory": [
+      {
+        "at": "2026-09-14T07:39:46.597Z",
+        "candidateId": "candidate-89f2ab336c3cdcc6",
+        "reviewer": "Patchdex-Redaktion",
+        "notes": "Projektthread geprüft: vollständiger Crystal-Umbau auf Basis von Crystal Legacy, aktueller Stand 2.1.1.",
+        "evidence": [
+          "https://www.pokecommunity.com/threads/pokemon-core-crystal-v2-1-1.538077/"
+        ],
+        "version": "2.1.1",
+        "status": "Komplett"
+      }
+    ],
+    "region": "Johto"
+  },
+  {
+    "slug": "pokemon-bubble-blue",
+    "name": "Pokémon Bubble Blue",
+    "type": "ROM-Hack",
+    "engine": "GBA",
+    "status": "Komplett",
+    "language": "Englisch",
+    "base": "FireRed",
+    "version": "1.0.1",
+    "sourceKind": "Community-Thread",
+    "sourceUrl": "https://www.pokecommunity.com/threads/pokemon-bubble-blue-v1-0-1-small-bug-fixes-event-tickets.543123/",
+    "featured": 0,
+    "color": "#3f91bd",
+    "symbol": "BB",
+    "tags": [
+      "Kanto",
+      "Vanilla Plus",
+      "QoL"
+    ],
+    "description": "Eine behutsam modernisierte FireRed-Variante mit allen 151 Kanto-Pokémon, späteren Entwicklungen, Feen-Typ und zahlreichen Komfortfunktionen.",
+    "aliases": [
+      "Pokemon: Bubble Blue"
+    ],
+    "developer": "Good Luck Erika",
+    "availability": "Verfügbar",
+    "relations": [],
+    "id": 61,
+    "reviewedAt": "2026-09-14",
+    "editorialHistory": [
+      {
+        "at": "2026-09-14T07:39:48.811Z",
+        "candidateId": "candidate-66f2d369edf8f4fe",
+        "reviewer": "Patchdex-Redaktion",
+        "notes": "Projektthread geprüft: vollständige Vanilla-Plus-Neufassung von FireRed durch Good Luck Erika, Version 1.0.1.",
+        "evidence": [
+          "https://www.pokecommunity.com/threads/pokemon-bubble-blue-v1-0-1-small-bug-fixes-event-tickets.543123/"
+        ],
+        "version": "1.0.1",
+        "status": "Komplett"
+      }
+    ],
+    "region": "Kanto"
+  },
+  {
+    "slug": "pokemon-tcg-neo",
+    "name": "Pokémon TCG Neo",
+    "type": "ROM-Hack",
+    "engine": "GBC",
+    "status": "Komplett",
+    "language": "Englisch",
+    "base": "Pokémon Trading Card Game",
+    "version": "1.43",
+    "sourceKind": "Community-Thread",
+    "sourceUrl": "https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/",
+    "featured": 0,
+    "color": "#b37345",
+    "symbol": "TN",
+    "tags": [
+      "Kartenspiel",
+      "Generation 2",
+      "Rebalancing"
+    ],
+    "description": "Ein umfassender Umbau des Game-Boy-Color-Kartenspiels, der die ursprünglichen Karten durch neu abgestimmte Sets von Neo Genesis bis Skyridge ersetzt.",
+    "aliases": [
+      "Pokémon Trading Card Game Neo",
+      "Pokemon TCG Neo"
+    ],
+    "developer": "Cataclyptic",
+    "availability": "Verfügbar",
+    "relations": [],
+    "id": 62,
+    "reviewedAt": "2026-09-14",
+    "editorialHistory": [
+      {
+        "at": "2026-09-14T07:39:50.980Z",
+        "candidateId": "candidate-6f6f6193b65eb898",
+        "reviewer": "Patchdex-Redaktion",
+        "notes": "Projektthread geprüft: finaler vollständiger Kampf- und Kartenumbau des Pokémon Trading Card Game mit Gen-2-Sets, Version 1.43.",
+        "evidence": [
+          "https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/"
+        ],
+        "version": "1.43",
+        "status": "Komplett"
+      }
     ]
   }
 ];
