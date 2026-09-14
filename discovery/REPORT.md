@@ -7,13 +7,13 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
 | PokéCommunity · ROM Hacks Showcase | error | 2026-09-13T17:29:54\.860Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-09-13T17:51:14\.637Z | 29 Seiten; Katalogdurchlauf beendet |
+| Whack a Hack · Spielekatalog | ok | 2026-09-14T13:03:24\.648Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-13T17:51:14\.637Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-09-13T17:51:14\.637Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-14T13:03:24\.648Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-09-14T13:03:24\.648Z | not-applicable |
 
 Fehler pokecommunity: robots\.txt nicht prüfbar: HTTP 403
 
@@ -24,7 +24,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-468 Funde; 450 zur Prüfung.
+469 Funde; 451 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -317,7 +317,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-6f6f6193b65eb898` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-tcg-neo (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokemon Sweet 2th - Sugary Sweet Seconds\! 8/21/2017 bugfix available
@@ -3301,3 +3301,10 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://whackahack.com/juegos/pokemon-ambar/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T17:55:21\.048Z
+
+### Pokémon Tourmaline · v0\.0\.1-alpha
+
+- ID: `candidate-4530cd52048ac25d` · Status: new
+- Quelle: <https://github.com/surskitty/tourmaline/releases/tag/v0.0.1-alpha>
+- Mögliche Zuordnung: pokemon-tourmaline (project-release)
+- Erstmals gefunden: 2026-09-14T13:03:24\.648Z
