@@ -7,13 +7,13 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
 | PokéCommunity · ROM Hacks Showcase | error | 2026-09-13T17:29:54\.860Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-09-14T13:03:24\.648Z | 29 Seiten; Katalogdurchlauf beendet |
+| Whack a Hack · Spielekatalog | ok | 2026-09-15T11:54:01\.909Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-14T13:03:24\.648Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-09-14T13:03:24\.648Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-15T11:54:01\.909Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-09-15T11:54:01\.909Z | not-applicable |
 
 Fehler pokecommunity: robots\.txt nicht prüfbar: HTTP 403
 
