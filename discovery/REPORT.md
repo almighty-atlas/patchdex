@@ -7,13 +7,13 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
 | PokéCommunity · ROM Hacks Showcase | error | 2026-09-13T17:29:54\.860Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-09-28T14:12:22\.338Z | 29 Seiten; Katalogdurchlauf beendet |
+| Whack a Hack · Spielekatalog | ok | 2026-09-29T13:07:50\.627Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-28T14:12:22\.338Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-09-28T14:12:22\.338Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-29T13:07:50\.627Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-09-29T13:07:50\.627Z | not-applicable |
 
 Fehler pokecommunity: robots\.txt nicht prüfbar: HTTP 403
 
@@ -24,7 +24,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-469 Funde; 451 zur Prüfung.
+470 Funde; 452 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3308,3 +3308,10 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://github.com/surskitty/tourmaline/releases/tag/v0.0.1-alpha>
 - Mögliche Zuordnung: pokemon-tourmaline (project-release)
 - Erstmals gefunden: 2026-09-14T13:03:24\.648Z
+
+### PMD: Grovyle's Story
+
+- ID: `candidate-89ac8549c79303e7` · Status: new
+- Quelle: <https://whackahack.com/juegos/pmd-grovyle-s-story/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-29T13:07:50\.627Z

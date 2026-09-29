@@ -1,35 +1,35 @@
 {
   "pokecommunity": {
-    "failures": 17,
-    "lastAttempt": "2026-09-28T14:12:22.338Z",
+    "failures": 18,
+    "lastAttempt": "2026-09-29T13:07:50.627Z",
     "lastSuccess": "2026-09-13T17:29:54.860Z",
     "error": "robots.txt nicht prüfbar: HTTP 403",
     "observed": 45
   },
   "whackahack": {
     "failures": 0,
-    "lastAttempt": "2026-09-28T14:12:46.276Z",
+    "lastAttempt": "2026-09-29T13:08:14.715Z",
     "backfill": {
       "nextUrl": null,
       "pages": 29,
       "complete": true,
       "lastSuccess": "2026-09-13T17:55:21.048Z"
     },
-    "lastSuccess": "2026-09-28T14:12:22.338Z",
+    "lastSuccess": "2026-09-29T13:07:50.627Z",
     "error": null,
     "observed": 0
   },
   "github-projects": {
     "failures": 0,
-    "lastAttempt": "2026-09-28T14:12:22.338Z",
-    "lastSuccess": "2026-09-28T14:12:22.338Z",
+    "lastAttempt": "2026-09-29T13:07:50.627Z",
+    "lastSuccess": "2026-09-29T13:07:50.627Z",
     "error": null,
     "observed": 80
   },
   "community-submissions": {
     "failures": 0,
-    "lastAttempt": "2026-09-28T14:12:22.338Z",
-    "lastSuccess": "2026-09-28T14:12:22.338Z",
+    "lastAttempt": "2026-09-29T13:07:50.627Z",
+    "lastSuccess": "2026-09-29T13:07:50.627Z",
     "error": null,
     "observed": 0
   }
