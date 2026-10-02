@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-01T13:33:18\.422Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-01T13:33:18\.422Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-02T12:52:07\.434Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-02T12:52:07\.434Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-01T13:33:18\.422Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-01T13:33:18\.422Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-02T12:52:07\.434Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-02T12:52:07\.434Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-494 Funde; 478 zur Prüfung.
+497 Funde; 481 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3481,3 +3481,24 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-waveblue.539394/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon CosmicEmerald Version \[Updated\! 12/24/2019\]
+
+- ID: `candidate-d434a79eaba6131c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-cosmicemerald-version-updated-12-24-2019.398314/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-02T12:52:07\.434Z
+
+### \[Hack of the Year 2010\] Pokémon Sienna - Complete Version Released
+
+- ID: `candidate-85a4c833aa39baf7` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/hack-of-the-year-2010-pok%C3%A9mon-sienna-complete-version-released.202372/>
+- Mögliche Zuordnung: candidate-1e5c58aa5f2920b0 (name-in-release-title)
+- Erstmals gefunden: 2026-10-02T12:52:07\.434Z
+
+### Pokémon Lost Silver
+
+- ID: `candidate-98a5753c54c6f3ff` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-lost-silver.543989/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-02T12:52:07\.434Z
