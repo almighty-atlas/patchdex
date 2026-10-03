@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-02T12:52:07\.434Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-02T12:52:07\.434Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-03T11:50:02\.437Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-03T11:50:02\.437Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-02T12:52:07\.434Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-02T12:52:07\.434Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-03T11:50:02\.437Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-03T11:50:02\.437Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-497 Funde; 481 zur Prüfung.
+498 Funde; 482 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3498,7 +3498,14 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokémon Lost Silver
 
-- ID: `candidate-98a5753c54c6f3ff` · Status: new
+- ID: `candidate-98a5753c54c6f3ff` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-lost-silver.543989/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-02T12:52:07\.434Z
+
+### Super Mariomon - Anniversary Update\!
+
+- ID: `candidate-51d0579965ce8c70` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/super-mariomon-anniversary-update.535764/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-03T11:50:02\.437Z
