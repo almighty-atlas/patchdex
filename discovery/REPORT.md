@@ -6,16 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | error | 2026-09-13T17:29:54\.860Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-09-13T17:51:14\.637Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-03T11:50:02\.437Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-03T11:50:02\.437Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-09-13T17:51:14\.637Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-09-13T17:51:14\.637Z | not-applicable |
-
-Fehler pokecommunity: robots\.txt nicht prüfbar: HTTP 403
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-03T11:50:02\.437Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-03T11:50:02\.437Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -24,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-468 Funde; 450 zur Prüfung.
+498 Funde; 482 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -35,7 +33,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Refined Gold Overhaul \[COMPLETE\]
 
-- ID: `candidate-7b8107175c6d6462` · Status: adopted
+- ID: `candidate-7b8107175c6d6462` · Status: reviewing · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/refined-gold-overhaul-complete.534484/>
 - Mögliche Zuordnung: pokemon-refined-gold (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -317,7 +315,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-6f6f6193b65eb898` · Status: adopted
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-tcg-neo-v1-43-update.489886/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: pokemon-tcg-neo (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokemon Sweet 2th - Sugary Sweet Seconds\! 8/21/2017 bugfix available
@@ -329,7 +327,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Sweet Version v1\.0
 
-- ID: `candidate-c324323692b0dc16` · Status: adopted
+- ID: `candidate-c324323692b0dc16` · Status: reviewing · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-sweet-version-v1-0.332437/>
 - Mögliche Zuordnung: pokemon-sweet-version (same-url), candidate-952dabd79f36553b (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -1162,7 +1160,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Grey- Full Version Available
 
-- ID: `candidate-0bd780aecd43f671` · Status: new
+- ID: `candidate-0bd780aecd43f671` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-grey-full-version-available.539211/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T17:29:54\.860Z
@@ -3301,3 +3299,213 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://whackahack.com/juegos/pokemon-ambar/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T17:55:21\.048Z
+
+### Pokémon Tourmaline · v0\.0\.1-alpha
+
+- ID: `candidate-4530cd52048ac25d` · Status: new
+- Quelle: <https://github.com/surskitty/tourmaline/releases/tag/v0.0.1-alpha>
+- Mögliche Zuordnung: pokemon-tourmaline (project-release)
+- Erstmals gefunden: 2026-09-14T13:03:24\.648Z
+
+### PMD: Grovyle's Story
+
+- ID: `candidate-89ac8549c79303e7` · Status: new
+- Quelle: <https://whackahack.com/juegos/pmd-grovyle-s-story/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-09-29T13:07:50\.627Z
+
+### Venom Purple v1\.5\.7b Update
+
+- ID: `candidate-d67f2a8ab37dcf34` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/venom-purple-v1-5-7b-update.542240/>
+- Mögliche Zuordnung: candidate-efacbe80652ee154 (name-in-release-title)
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Venom Purple v1\.5\.7b
+
+- ID: `candidate-efacbe80652ee154` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/venom-purple-v1-5-7b.543937/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Black Pearl Emerald \[V1\.0\.1\]
+
+- ID: `candidate-8c8409950f40d298` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-black-pearl-emerald-v1-0-1.530987/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### AIRE’S WORLD — OFFICIAL RELEASE NOTICE
+
+- ID: `candidate-911ab1c27823337e` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/aire%E2%80%99s-world-%E2%80%94-official-release-notice.543964/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Emerald Eternity
+
+- ID: `candidate-722ae7fbb403931a` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald-eternity.543961/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Fakemon FireRed v2\.0 \[Complete\]
+
+- ID: `candidate-d948f74c935efdf1` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/fakemon-firered-v2-0-complete.424971/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon \(Old\) White
+
+- ID: `candidate-3f84e272ef38f0b5` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-old-white.142585/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Crowned Sword & Armored Shield \(SWSH Hack\)
+
+- ID: `candidate-0d9a1e377c859372` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-crowned-sword-armored-shield-swsh-hack.488731/>
+- Mögliche Zuordnung: pokemon-crown (name-in-release-title), candidate-b1172c5a1e02e46e (name-in-release-title)
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### FireRed ω
+
+- ID: `candidate-201dafb9ef182ccd` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/firered-%CF%89.543955/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Heartgold Minimal
+
+- ID: `candidate-904be68d9f643b96` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-heartgold-minimal.543850/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Rust \(Hard Mode Challenge\)
+
+- ID: `candidate-2801bcd058827d5a` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-rust-hard-mode-challenge.543754/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### \[Pokémon TCG Generations\] -V1\.7\.2 \[Bug Fix\]
+
+- ID: `candidate-c7f699c0efd681b9` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-tcg-generations-v1-7-2-bug-fix.504206/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Heart & Soul GERMAN/DEUTSCH \(Johto GBA Decomp hack\)
+
+- ID: `candidate-7f2dfab3431616dc` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/heart-soul-german-deutsch-johto-gba-decomp-hack.543773/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Mirror Gold
+
+- ID: `candidate-06c3d19d870a7161` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-mirror-gold.543565/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Celia's Stupid Romhack - A Pokemon Puzzle Adventure\!
+
+- ID: `candidate-bf66675112a1fea8` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/celias-stupid-romhack-a-pokemon-puzzle-adventure.534489/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon Unbound \[COMPLETED\]
+
+- ID: `candidate-4e95ac3304749c78` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-unbound-completed.382178/>
+- Mögliche Zuordnung: pokemon-unbound (same-url), candidate-ea5d2ee401d7c477 (name-in-release-title)
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokemon Emerald Adventure
+
+- ID: `candidate-a780a6af392afd29` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-emerald-adventure.543485/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokemon Nameless Version\(Complete Beta 5\.48 Released with mugshots and new megas\)
+
+- ID: `candidate-56630b2c1aef9f94` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-nameless-version-complete-beta-5-48-released-with-mugshots-and-new-megas.419717/>
+- Mögliche Zuordnung: candidate-4d571425dcc677a7 (name-in-release-title)
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### The Pit v2 - Roguelite Style Hack
+
+- ID: `candidate-066d2eff44cc4816` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/the-pit-v2-roguelite-style-hack.528423/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### \[Hack of the Year 2017\] - Pokémon Orange \(GBC\) \[Suloku Patch 2026\]
+
+- ID: `candidate-a84d194c54e8ba93` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/hack-of-the-year-2017-pok%C3%A9mon-orange-gbc-suloku-patch-2026.387653/>
+- Mögliche Zuordnung: candidate-34d4fc53eef0b33b (name-in-release-title)
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Weird Type Fun v2\.0 \(complete type swap hack\) - 2026 UPDATE\!
+
+- ID: `candidate-ede533aee4aa7809` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/weird-type-fun-v2-0-complete-type-swap-hack-2026-update.529212/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### PokeCave Almerald \[COMPLETE\]
+
+- ID: `candidate-463fac7aeb8fa21c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokecave-almerald-complete.542946/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokemon Banana Version 1\.3
+
+- ID: `candidate-5a7045b2c5b5515a` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-banana-version-1-3.542651/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon WaveBlue
+
+- ID: `candidate-8bab8ff3d5e35352` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-waveblue.539394/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-01T13:33:18\.422Z
+
+### Pokémon CosmicEmerald Version \[Updated\! 12/24/2019\]
+
+- ID: `candidate-d434a79eaba6131c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-cosmicemerald-version-updated-12-24-2019.398314/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-02T12:52:07\.434Z
+
+### \[Hack of the Year 2010\] Pokémon Sienna - Complete Version Released
+
+- ID: `candidate-85a4c833aa39baf7` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/hack-of-the-year-2010-pok%C3%A9mon-sienna-complete-version-released.202372/>
+- Mögliche Zuordnung: candidate-1e5c58aa5f2920b0 (name-in-release-title)
+- Erstmals gefunden: 2026-10-02T12:52:07\.434Z
+
+### Pokémon Lost Silver
+
+- ID: `candidate-98a5753c54c6f3ff` · Status: new · Quelle geändert
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-lost-silver.543989/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-02T12:52:07\.434Z
+
+### Super Mariomon - Anniversary Update\!
+
+- ID: `candidate-51d0579965ce8c70` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/super-mariomon-anniversary-update.535764/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-03T11:50:02\.437Z
