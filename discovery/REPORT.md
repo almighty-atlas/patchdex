@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-03T11:50:02\.437Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-03T11:50:02\.437Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-04T12:33:50\.620Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-04T12:33:50\.620Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-03T11:50:02\.437Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-03T11:50:02\.437Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-04T12:33:50\.620Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-04T12:33:50\.620Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -1146,7 +1146,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Mystic Crystal - A Johto with more emphasis on the traditional
 
-- ID: `candidate-9ce806f9173116e0` · Status: new
+- ID: `candidate-9ce806f9173116e0` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-mystic-crystal-a-johto-with-more-emphasis-on-the-traditional.541997/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T17:29:54\.860Z
