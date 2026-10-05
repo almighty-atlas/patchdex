@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-04T12:33:50\.620Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-04T12:33:50\.620Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-05T14:59:36\.275Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-05T14:59:36\.275Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-04T12:33:50\.620Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-04T12:33:50\.620Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-05T14:59:36\.275Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-05T14:59:36\.275Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-498 Funde; 482 zur Prüfung.
+501 Funde; 485 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -94,9 +94,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
-### Pokémon Modern Emerald 3\.5 \(OPEN SOURCE\!\) - Double Speed battles, Following Pokémon, Better Battle Frontier, and more\!
+### Pokémon Modern Emerald 3\.6 \(OPEN SOURCE\!\) - Double Speed battles, Following Pokémon, Better Battle Frontier, and more\!
 
-- ID: `candidate-4f08d0101a3e2f8d` · Status: new
+- ID: `candidate-4f08d0101a3e2f8d` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-modern-emerald-3-5-open-source-double-speed-battles-following-pok%C3%A9mon-better-battle-frontier-and-more.494005/>
 - Mögliche Zuordnung: pokemon-modern-emerald (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -3509,3 +3509,24 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/super-mariomon-anniversary-update.535764/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-03T11:50:02\.437Z
+
+### Emerald Flow
+
+- ID: `candidate-e25f337e6ad82995` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/emerald-flow.543090/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-05T14:59:36\.275Z
+
+### Digimon Adventure TCG REMASTERED \(HUGELY UPDATED, 8\.30\.2025\)
+
+- ID: `candidate-faa869e54a9cafd5` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/digimon-adventure-tcg-remastered-hugely-updated-8-30-2025.501014/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-05T14:59:36\.275Z
+
+### Pokémon Modern Emerald · Release3\.6
+
+- ID: `candidate-610441984e389da1` · Status: new
+- Quelle: <https://github.com/resetes12/pokeemerald/releases/tag/Release3.6>
+- Mögliche Zuordnung: pokemon-modern-emerald (project-release)
+- Erstmals gefunden: 2026-10-05T14:59:36\.275Z
