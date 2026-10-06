@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-05T14:59:36\.275Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-05T14:59:36\.275Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-06T13:26:46\.687Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-06T13:26:46\.687Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-05T14:59:36\.275Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-05T14:59:36\.275Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-06T13:26:46\.687Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-06T13:26:46\.687Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-501 Funde; 485 zur Prüfung.
+504 Funde; 489 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -157,9 +157,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
-### Pokémon GS Chronicles \| Current Build 2\.7\.6 \| Next Version Progress Update 8/25/2026
+### Pokémon GS Chronicles \| Current Build 2\.7\.6 \| Beta 3 Coming 11/18/26
 
-- ID: `candidate-99da90188055c2db` · Status: adopted
+- ID: `candidate-99da90188055c2db` · Status: reviewing · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-gs-chronicles-current-build-2-7-6-next-version-progress-update-8-25-2026.340232/>
 - Mögliche Zuordnung: pokemon-gs-chronicles (name-in-release-title), candidate-2e9ce14692d74e4e (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -3530,3 +3530,24 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://github.com/resetes12/pokeemerald/releases/tag/Release3.6>
 - Mögliche Zuordnung: pokemon-modern-emerald (project-release)
 - Erstmals gefunden: 2026-10-05T14:59:36\.275Z
+
+### Pokémon Gaia Version
+
+- ID: `candidate-f4166f8af975dd35` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-gaia-version.326118/>
+- Mögliche Zuordnung: pokemon-gaia (same-url), candidate-4aedb0a954079785 (name-in-release-title)
+- Erstmals gefunden: 2026-10-06T13:26:46\.687Z
+
+### Pokemon Omega Paradox \(Version 2\.0\)
+
+- ID: `candidate-250bb85454bb901c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-omega-paradox-version-2-0.398877/>
+- Mögliche Zuordnung: candidate-360527f9e0cdecc6 (name-in-release-title)
+- Erstmals gefunden: 2026-10-06T13:26:46\.687Z
+
+### Pokémon Black Boost- A Vanilla\+\+ Black ROM Hack
+
+- ID: `candidate-677ac2d1ecce1ae0` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-black-boost-a-vanilla-black-rom-hack.536936/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-06T13:26:46\.687Z
