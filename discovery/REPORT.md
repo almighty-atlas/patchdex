@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-06T13:26:46\.687Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-06T13:26:46\.687Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-07T13:37:49\.491Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-07T13:37:49\.491Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-06T13:26:46\.687Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-06T13:26:46\.687Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-07T13:37:49\.491Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-07T13:37:49\.491Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-504 Funde; 489 zur Prüfung.
+506 Funde; 492 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -73,9 +73,9 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
-### Dittomon: Mewtation Public Beta
+### Dittomon: Mewtation 2\.0 Update Public Beta
 
-- ID: `candidate-8e6681024f761c1b` · Status: adopted
+- ID: `candidate-8e6681024f761c1b` · Status: reviewing · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/dittomon-mewtation-public-beta.543650/>
 - Mögliche Zuordnung: dittomon-mewtation (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -3505,7 +3505,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Super Mariomon - Anniversary Update\!
 
-- ID: `candidate-51d0579965ce8c70` · Status: new
+- ID: `candidate-51d0579965ce8c70` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/super-mariomon-anniversary-update.535764/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-03T11:50:02\.437Z
@@ -3551,3 +3551,17 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-black-boost-a-vanilla-black-rom-hack.536936/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-06T13:26:46\.687Z
+
+### Pokémon - Gensou Emerald Version
+
+- ID: `candidate-a8b52082133d8774` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-gensou-emerald-version.540929/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-07T13:37:49\.491Z
+
+### Karpion's Journey \(Juego de Mesa\)
+
+- ID: `candidate-55dda68fc40547db` · Status: new
+- Quelle: <https://whackahack.com/juegos/karpion-s-journey-juego-de-mesa/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-07T13:37:49\.491Z
