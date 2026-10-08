@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-07T13:37:49\.491Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-07T13:37:49\.491Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-08T13:44:28\.846Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-08T13:44:28\.846Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-07T13:37:49\.491Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-07T13:37:49\.491Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-08T13:44:28\.846Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-08T13:44:28\.846Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-506 Funde; 492 zur Prüfung.
+510 Funde; 496 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3565,3 +3565,31 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://whackahack.com/juegos/karpion-s-journey-juego-de-mesa/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-07T13:37:49\.491Z
+
+### Pokémon Throwback Unofficial Expansion
+
+- ID: `candidate-6c616733411be686` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-throwback-unofficial-expansion.537321/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-08T13:44:28\.846Z
+
+### The Results for the Third Team Aqua Romhacking Competition Have Been Announced\!\!\!
+
+- ID: `candidate-40b3129903839f8c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/the-results-for-the-third-team-aqua-romhacking-competition-have-been-announced.544052/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-08T13:44:28\.846Z
+
+### POKEMON PRISM 100% GERMAN VERSION \[ PRISMA EDITION \]
+
+- ID: `candidate-35cb9a18c08d65a6` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-prism-100-german-version-prisma-edition.437490/>
+- Mögliche Zuordnung: pokemon-prism (name-in-release-title), candidate-1e13d0a30c5fd88b (name-in-release-title)
+- Erstmals gefunden: 2026-10-08T13:44:28\.846Z
+
+### Sword and Shield Ultimate Plus GBA English Version \(Complete 1\.2\.1\.2\)
+
+- ID: `candidate-e2cd71188089024c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/sword-and-shield-ultimate-plus-gba-english-version-complete-1-2-1-2.526384/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-08T13:44:28\.846Z
