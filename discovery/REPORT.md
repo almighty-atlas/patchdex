@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-08T13:44:28\.846Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-08T13:44:28\.846Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-09T13:29:51\.037Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-09T13:29:51\.037Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-08T13:44:28\.846Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-08T13:44:28\.846Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-09T13:29:51\.037Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-09T13:29:51\.037Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-510 Funde; 496 zur Prüfung.
+514 Funde; 500 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3593,3 +3593,31 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/sword-and-shield-ultimate-plus-gba-english-version-complete-1-2-1-2.526384/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-08T13:44:28\.846Z
+
+### Now Available: Pokémon Crestfall
+
+- ID: `candidate-42fe5869bc29fbf2` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/now-available-pok%C3%A9mon-crestfall.543895/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-09T13:29:51\.037Z
+
+### Pokemon Brisk Emerald
+
+- ID: `candidate-54b4663574552643` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-brisk-emerald.544065/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-09T13:29:51\.037Z
+
+### Pokémon ChromeGold
+
+- ID: `candidate-43d8f4aba0ab9fe9` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-chromegold.542503/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-09T13:29:51\.037Z
+
+### Pokémon Polished Crystal \(update 3\.1\.1\!\)
+
+- ID: `candidate-c62b362dd8d786a3` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-polished-crystal-update-3-1-1.373172/>
+- Mögliche Zuordnung: pokemon-polished-crystal (name-in-release-title)
+- Erstmals gefunden: 2026-10-09T13:29:51\.037Z
