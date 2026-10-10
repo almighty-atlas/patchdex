@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-09T13:29:51\.037Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-09T13:29:51\.037Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-10T12:44:35\.352Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-10T12:44:35\.352Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-09T13:29:51\.037Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-09T13:29:51\.037Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-10T12:44:35\.352Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-10T12:44:35\.352Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-514 Funde; 500 zur Prüfung.
+515 Funde; 501 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3596,7 +3596,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Now Available: Pokémon Crestfall
 
-- ID: `candidate-42fe5869bc29fbf2` · Status: new
+- ID: `candidate-42fe5869bc29fbf2` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/now-available-pok%C3%A9mon-crestfall.543895/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-09T13:29:51\.037Z
@@ -3621,3 +3621,10 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-polished-crystal-update-3-1-1.373172/>
 - Mögliche Zuordnung: pokemon-polished-crystal (name-in-release-title)
 - Erstmals gefunden: 2026-10-09T13:29:51\.037Z
+
+### Pokémon XY Deluxe Full Version 1\.1 Available April 6, 2025
+
+- ID: `candidate-f2030453c76ab406` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-xy-deluxe-full-version-1-1-available-april-6-2025.535537/>
+- Mögliche Zuordnung: candidate-94af2cde8d0c778a (name-in-release-title)
+- Erstmals gefunden: 2026-10-10T12:44:35\.352Z
