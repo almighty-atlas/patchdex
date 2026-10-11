@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-10T12:44:35\.352Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-10T12:44:35\.352Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-11T13:07:04\.921Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-11T13:07:04\.921Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-10T12:44:35\.352Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-10T12:44:35\.352Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-11T13:07:04\.921Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-11T13:07:04\.921Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-515 Funde; 501 zur Prüfung.
+518 Funde; 504 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -84,7 +84,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-5dcd415bc55db18c` · Status: new
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald-blitz-hack-for-nuzlocke-races.539370/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Heart & Soul \(Completed Johto GBA Decomp hack, v2\.0\.2 out now\!\)
@@ -231,7 +231,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-dfca1e0ded62e405` · Status: new
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald-battle-frontier.543463/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Fire Red: Infinity Horizon \(Complete\) - V1\.1 OUT NOW\!
@@ -287,7 +287,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-814f7728d2485afa` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-emerald-squared-complete.538294/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokemon Core Crystal \(v2\.1\.1\)
@@ -427,84 +427,84 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-15c87a3e4acd5701` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/vanilla-v2.1>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · EX-v2\.1
 
 - ID: `candidate-e09beeea5f1c836d` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v2.1>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v2\.0
 
 - ID: `candidate-830c04ad5739f059` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/vanilla-v2.0>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · EX-v2\.0
 
 - ID: `candidate-40fee8c8f0122dd0` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v2.0>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v1\.3
 
 - ID: `candidate-fed9c320cc0e7fdc` · Status: new · Quelle geändert
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/vanilla-v1.3>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · EX-v1\.3
 
 - ID: `candidate-b47c31bbbfe37456` · Status: new · Quelle geändert
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.3>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v1\.2
 
 - ID: `candidate-3529b8a51a9670e1` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/vanilla-v1.2>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · EX-v1\.2
 
 - ID: `candidate-dda1a53b757ef8eb` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.2>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v1\.1
 
 - ID: `candidate-fa1e02c2b54bb5b0` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/vanilla-v1.1>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · EX-v1\.1
 
 - ID: `candidate-3dea24c8f26a08e7` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.1>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · v1\.0
 
 - ID: `candidate-ca3acb69842b87ba` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/v1.0>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · EX-v1\.0
 
 - ID: `candidate-274a6f9d08e79fb2` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.0>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Polished Crystal · do-not-checkout
@@ -875,21 +875,21 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-c4fb8fcf0f483b2c` · Status: new · Quelle geändert
 - Quelle: <https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/releases/tag/V1.1.4>
-- Mögliche Zuordnung: pokemon-emerald-legacy (project-release)
+- Mögliche Zuordnung: pokemon-emerald-legacy (project-release), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Legacy · V1\.1\.0
 
 - ID: `candidate-87d6fb4ab57f4e77` · Status: new · Quelle geändert
 - Quelle: <https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/releases/tag/V1.1.0>
-- Mögliche Zuordnung: pokemon-emerald-legacy (project-release)
+- Mögliche Zuordnung: pokemon-emerald-legacy (project-release), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Legacy · V1\.0\.0
 
 - ID: `candidate-af6bf8ed35522707` · Status: new · Quelle geändert
 - Quelle: <https://github.com/cRz-Shadows/Pokemon_Emerald_Legacy/releases/tag/V1.0.0>
-- Mögliche Zuordnung: pokemon-emerald-legacy (project-release)
+- Mögliche Zuordnung: pokemon-emerald-legacy (project-release), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Crystal Legacy · V1\.3\.1
@@ -1155,7 +1155,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-a586b3d27313e6c1` · Status: new
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-emerald-rush.543752/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T17:29:54\.860Z
 
 ### Pokemon Grey- Full Version Available
@@ -1883,7 +1883,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-a62bcf48ac1b42c9` · Status: new
 - Quelle: <https://whackahack.com/juegos/pokemon-emerald-rogue/>
-- Mögliche Zuordnung: pokemon-emerald-rogue (same-name)
+- Mögliche Zuordnung: pokemon-emerald-rogue (same-name), candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T17:54:56\.444Z
 
 ### Pokémon Quetzal
@@ -3346,7 +3346,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-722ae7fbb403931a` · Status: new
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald-eternity.543961/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-10-01T13:33:18\.422Z
 
 ### Fakemon FireRed v2\.0 \[Complete\]
@@ -3430,7 +3430,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-a780a6af392afd29` · Status: new
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-emerald-adventure.543485/>
-- Mögliche Zuordnung: keine
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
 - Erstmals gefunden: 2026-10-01T13:33:18\.422Z
 
 ### Pokemon Nameless Version\(Complete Beta 5\.48 Released with mugshots and new megas\)
@@ -3628,3 +3628,24 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-xy-deluxe-full-version-1-1-available-april-6-2025.535537/>
 - Mögliche Zuordnung: candidate-94af2cde8d0c778a (name-in-release-title)
 - Erstmals gefunden: 2026-10-10T12:44:35\.352Z
+
+### Pokémon Pink Version: Special Clefairy Edition \(UE\)
+
+- ID: `candidate-a78a565fe0a4b44c` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-pink-version-special-clefairy-edition-ue.542531/>
+- Mögliche Zuordnung: candidate-d147ae3e2410c8a5 (name-in-release-title)
+- Erstmals gefunden: 2026-10-11T13:07:04\.921Z
+
+### Pokémon Crystal - Curse of the Unown King \(GSC Recreation\) \(Oxygen's Take\)
+
+- ID: `candidate-1e1b6d58d4d30aab` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-crystal-curse-of-the-unown-king-gsc-recreation-oxygens-take.541582/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-11T13:07:04\.921Z
+
+### Pokémon Emerald\+\+
+
+- ID: `candidate-746aeb78fbf5dda5` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald.527848/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-11T13:07:04\.921Z
