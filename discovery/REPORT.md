@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-11T13:07:04\.921Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-11T13:07:04\.921Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-12T15:45:56\.723Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-12T15:45:56\.723Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-11T13:07:04\.921Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-11T13:07:04\.921Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-12T15:45:56\.723Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-12T15:45:56\.723Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-518 Funde; 504 zur Prüfung.
+521 Funde; 507 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3649,3 +3649,24 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-emerald.527848/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-11T13:07:04\.921Z
+
+### Introducing Pokemon JetBlack - A RomHack of Pokemon Black
+
+- ID: `candidate-295d7d65a1aab552` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/introducing-pokemon-jetblack-a-romhack-of-pokemon-black.535562/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-12T15:45:56\.723Z
+
+### \[COMPLETE\] All Things It Devours V1\.1
+
+- ID: `candidate-565e2ee692803f38` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/complete-all-things-it-devours-v1-1.532548/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-12T15:45:56\.723Z
+
+### Pokémon Neo Ultra \(100\+ NEW FORMS, NEW MEGAS, A HARDER ALOLA\!\!\)
+
+- ID: `candidate-930175b0f1246cd0` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-neo-ultra-100-new-forms-new-megas-a-harder-alola.544107/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-12T15:45:56\.723Z
