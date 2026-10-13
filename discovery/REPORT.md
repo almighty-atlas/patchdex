@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-12T15:45:56\.723Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-12T15:45:56\.723Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-13T14:24:21\.176Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-13T14:24:21\.176Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-12T15:45:56\.723Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-12T15:45:56\.723Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-13T14:24:21\.176Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-13T14:24:21\.176Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-521 Funde; 507 zur Prüfung.
+524 Funde; 510 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3670,3 +3670,24 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-neo-ultra-100-new-forms-new-megas-a-harder-alola.544107/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-12T15:45:56\.723Z
+
+### Pokemon Sun Sky and Moon Galaxy \[COMPLETED\]
+
+- ID: `candidate-f31c040d547c6ca0` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-sun-sky-and-moon-galaxy-completed.444391/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-13T14:24:21\.176Z
+
+### Pokémon Contemporary Emerald v1\.0
+
+- ID: `candidate-2082a1eee751fde2` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-contemporary-emerald-v1-0.537419/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-13T14:24:21\.176Z
+
+### Pokemon Ultra Sun and Moon Zoomies \(QOL Hack\)
+
+- ID: `candidate-2ded960a7d589330` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-ultra-sun-and-moon-zoomies-qol-hack.544118/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-13T14:24:21\.176Z
