@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-13T14:24:21\.176Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-13T14:24:21\.176Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-14T12:08:00\.333Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-14T12:08:00\.333Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-13T14:24:21\.176Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-13T14:24:21\.176Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-14T12:08:00\.333Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-14T12:08:00\.333Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-524 Funde; 510 zur Prüfung.
+534 Funde; 520 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3691,3 +3691,73 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-ultra-sun-and-moon-zoomies-qol-hack.544118/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-13T14:24:21\.176Z
+
+### \[COMPLETE\]\[pokefirered\] Pokémon FireRed & LeafGreen\+
+
+- ID: `candidate-e168803253004349` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/complete-pokefirered-pok%C3%A9mon-firered-leafgreen.454382/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon Crystal Awakening \(COMPLETE\)
+
+- ID: `candidate-689d5d055fc60378` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-crystal-awakening-complete.539195/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon DarkViolet \(Full Version Released\)
+
+- ID: `candidate-4f811b4881b23ca2` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-darkviolet-full-version-released.291789/>
+- Mögliche Zuordnung: candidate-bce24ec291394463 (name-in-release-title)
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon Gold and Silver 97: Reforged \(COMPLETE\!\)
+
+- ID: `candidate-55223839f29ad214` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-gold-and-silver-97-reforged-complete.437360/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon Beyond Red and Blue
+
+- ID: `candidate-361b5c615a2d76ab` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-beyond-red-and-blue.536414/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokemon Dark Realm - Beta 3\.0 release: Main Region Completed
+
+- ID: `candidate-b78fe549733b7efe` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-dark-realm-beta-3-0-release-main-region-completed.390535/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon Scorched Silver v1\.3 \[Complete\]
+
+- ID: `candidate-544aeb8e62247a78` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-scorched-silver-v1-3-complete.529230/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Chaos Emerald, the weirdest difficulty hack in the world\! \(You can catch Kirby in it, and it's 100% Complete\!\!\!\) Now with Mega Evolution\!
+
+- ID: `candidate-4e296cd9ad613dd3` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/chaos-emerald-the-weirdest-difficulty-hack-in-the-world-you-can-catch-kirby-in-it-and-its-100-complete-now-with-mega-evolution.457798/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokemon Evergreen Version\! \[complete\]
+
+- ID: `candidate-6d3a094dcf70c40f` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-evergreen-version-complete.543435/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon Elite Redux v2\.65 Beta \[complete\] — Unique Multi-Ability Difficulty Hack
+
+- ID: `candidate-da650a394334bad0` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-elite-redux-v2-65-beta-complete-%E2%80%94-unique-multi-ability-difficulty-hack.499227/>
+- Mögliche Zuordnung: pokemon-elite-redux (name-in-release-title)
+- Erstmals gefunden: 2026-10-14T12:08:00\.333Z
