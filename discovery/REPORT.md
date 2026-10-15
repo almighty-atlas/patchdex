@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-14T12:08:00\.333Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-14T12:08:00\.333Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-15T11:44:25\.270Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-15T11:44:25\.270Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-14T12:08:00\.333Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-14T12:08:00\.333Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-15T11:44:25\.270Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-15T11:44:25\.270Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-534 Funde; 520 zur Prüfung.
+541 Funde; 527 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3761,3 +3761,52 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-elite-redux-v2-65-beta-complete-%E2%80%94-unique-multi-ability-difficulty-hack.499227/>
 - Mögliche Zuordnung: pokemon-elite-redux (name-in-release-title)
 - Erstmals gefunden: 2026-10-14T12:08:00\.333Z
+
+### Pokémon VANTA Black \(Main Story Complete\)
+
+- ID: `candidate-606693e145a1e5c7` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-vanta-black-main-story-complete.541542/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
+
+### Random Red Rumble: Battle against red with random MODERN teams\!
+
+- ID: `candidate-6b42a2414494f143` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/random-red-rumble-battle-against-red-with-random-modern-teams.544173/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
+
+### Pokémon Radical Red \(VERSION 4\.1 RELEASED\! Gen 9 DLC Pokemon, Character Customization now available\!\)
+
+- ID: `candidate-fdf38ed44f4e2af5` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-radical-red-version-4-1-released-gen-9-dlc-pokemon-character-customization-now-available.437688/>
+- Mögliche Zuordnung: pokemon-radical-red (same-url)
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
+
+### Pokemon Fire Red - 386
+
+- ID: `candidate-83d7547c8f419504` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-fire-red-386.539335/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
+
+### Pokemon Emerald - 386
+
+- ID: `candidate-acbd28d85260be67` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-emerald-386.530669/>
+- Mögliche Zuordnung: candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
+
+### Pokemon Mystery Dungeon - Red Rescue Team QOL Changes Hack
+
+- ID: `candidate-65be829834a6e848` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-mystery-dungeon-red-rescue-team-qol-changes-hack.434422/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
+
+### Pokemon Sour Crystal \(improvement hack\)
+
+- ID: `candidate-b04f72b63f3a0a61` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pokemon-sour-crystal-improvement-hack.434361/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-15T11:44:25\.270Z
