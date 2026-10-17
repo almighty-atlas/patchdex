@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-16T11:38:27\.421Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-16T11:38:27\.421Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-17T10:58:08\.591Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-17T10:58:08\.591Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-16T11:38:27\.421Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-16T11:38:27\.421Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-17T10:58:08\.591Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-17T10:58:08\.591Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-545 Funde; 531 zur Prüfung.
+547 Funde; 533 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -3838,3 +3838,17 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/omega-ruby-alpha-sapphire-repolished-a-light-adjusted-difficulty-vanilla-hack-of-or-as.525735/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-16T11:38:27\.421Z
+
+### Pokémon BugLime Version v1\.0
+
+- ID: `candidate-91d90649f24f6022` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-buglime-version-v1-0.544221/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-17T10:58:08\.591Z
+
+### Pokémon Sors - The VytroVerse Part 2 \(Full Game in English & Spanish, v1\.3 Available Now\!\)
+
+- ID: `candidate-c616aac26f3df0a2` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-sors-the-vytroverse-part-2-full-game-in-english-spanish-v1-3-available-now.433238/>
+- Mögliche Zuordnung: candidate-9d13284bdfb09ebe (name-in-release-title)
+- Erstmals gefunden: 2026-10-17T10:58:08\.591Z
