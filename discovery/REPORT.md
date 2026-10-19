@@ -6,14 +6,14 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
-| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-18T11:24:21\.024Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-18T11:24:21\.024Z | 29 Seiten; Katalogdurchlauf beendet |
+| PokéCommunity · ROM Hacks Showcase | ok | 2026-10-19T13:39:06\.995Z | manual |
+| Whack a Hack · Spielekatalog | ok | 2026-10-19T13:39:06\.995Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-18T11:24:21\.024Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-18T11:24:21\.024Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-19T13:39:06\.995Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-19T13:39:06\.995Z | not-applicable |
 
 
 Zustände: ok = kürzlich erfolgreich; stale = länger als zwei Intervalle ohne Erfolg; never = noch nie erfolgreich; error = Abruffehler; manual = bewusst nicht automatisiert.
@@ -22,7 +22,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-547 Funde; 533 zur Prüfung.
+548 Funde; 535 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -271,7 +271,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Refined Platinum Overhaul \[COMPLETE\]
 
-- ID: `candidate-17840613e2628ab4` · Status: adopted
+- ID: `candidate-17840613e2628ab4` · Status: reviewing · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/refined-platinum-overhaul-complete.534483/>
 - Mögliche Zuordnung: pokemon-refined-platinum (same-url)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
@@ -3827,7 +3827,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ### Pokemon Amethyst \(v1\.4\.2\)
 
-- ID: `candidate-f5600a78cefad01c` · Status: new
+- ID: `candidate-f5600a78cefad01c` · Status: new · Quelle geändert
 - Quelle: <https://www.pokecommunity.com/threads/pokemon-amethyst-v1-4-2.544193/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-16T11:38:27\.421Z
@@ -3852,3 +3852,10 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-sors-the-vytroverse-part-2-full-game-in-english-spanish-v1-3-available-now.433238/>
 - Mögliche Zuordnung: candidate-9d13284bdfb09ebe (name-in-release-title)
 - Erstmals gefunden: 2026-10-17T10:58:08\.591Z
+
+### Pokémon Supernova Sun & Penumbra Moon: Fully-Featured Ultra Sun / Ultra Moon ROM Hacks\!
+
+- ID: `candidate-ce35bd8d33a84679` · Status: new
+- Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-supernova-sun-penumbra-moon-fully-featured-ultra-sun-ultra-moon-rom-hacks.404639/>
+- Mögliche Zuordnung: keine
+- Erstmals gefunden: 2026-10-19T13:39:06\.995Z
