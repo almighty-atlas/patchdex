@@ -7,13 +7,13 @@ Automatische Funde sind ungeprüft und keine veröffentlichten Spiele. Keine Vol
 | Quelle | Zustand | Letzter Erfolg | Historischer Import |
 | --- | --- | --- | --- |
 | PokéCommunity · ROM Hacks Showcase | error | 2026-10-19T13:39:06\.995Z | manual |
-| Whack a Hack · Spielekatalog | ok | 2026-10-22T12:06:46\.743Z | 29 Seiten; Katalogdurchlauf beendet |
+| Whack a Hack · Spielekatalog | ok | 2026-10-23T11:50:54\.522Z | 29 Seiten; Katalogdurchlauf beendet |
 | Eevee Expo · Released Games | manual | — | manual |
 | Eevee Expo · Completed Games | manual | — | manual |
 | Eevee Expo · Games in Development | manual | — | manual |
 | Reddit · Pokémon ROM Hacks | manual | — | manual |
-| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-22T12:06:46\.743Z | not-applicable |
-| Patchdex · Spiel-Einreichungen | ok | 2026-10-22T12:06:46\.743Z | not-applicable |
+| GitHub · Releases bekannter Archivprojekte | ok | 2026-10-23T11:50:54\.522Z | not-applicable |
+| Patchdex · Spiel-Einreichungen | ok | 2026-10-23T11:50:54\.522Z | not-applicable |
 
 Fehler pokecommunity: robots\.txt nicht prüfbar: HTTP 403
 
@@ -24,7 +24,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 ## Eingangsliste
 
-548 Funde; 535 zur Prüfung.
+549 Funde; 536 zur Prüfung.
 
 ### FRLG\.IPS
 
@@ -436,7 +436,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-e09beeea5f1c836d` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v2.1>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title), candidate-db036c95ae718966 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v2\.0
@@ -450,7 +450,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-40fee8c8f0122dd0` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v2.0>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title), candidate-db036c95ae718966 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v1\.3
@@ -464,7 +464,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-b47c31bbbfe37456` · Status: new · Quelle geändert
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.3>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title), candidate-db036c95ae718966 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v1\.2
@@ -478,7 +478,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-dda1a53b757ef8eb` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.2>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title), candidate-db036c95ae718966 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · vanilla-v1\.1
@@ -492,7 +492,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-3dea24c8f26a08e7` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.1>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title), candidate-db036c95ae718966 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Emerald Rogue · v1\.0
@@ -506,7 +506,7 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 
 - ID: `candidate-274a6f9d08e79fb2` · Status: new
 - Quelle: <https://github.com/Pokabbie/pokeemerald-rogue/releases/tag/EX-v1.0>
-- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Mögliche Zuordnung: pokemon-emerald-rogue (project-release), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title), candidate-db036c95ae718966 (name-in-release-title)
 - Erstmals gefunden: 2026-09-13T08:04:59\.144Z
 
 ### Pokémon Polished Crystal · do-not-checkout
@@ -3861,3 +3861,10 @@ Ein beendeter Katalogdurchlauf gilt nur für diese Quelle und diesen Zeitpunkt. 
 - Quelle: <https://www.pokecommunity.com/threads/pok%C3%A9mon-supernova-sun-penumbra-moon-fully-featured-ultra-sun-ultra-moon-rom-hacks.404639/>
 - Mögliche Zuordnung: keine
 - Erstmals gefunden: 2026-10-19T13:39:06\.995Z
+
+### Pokémon Emerald Rogue EX
+
+- ID: `candidate-db036c95ae718966` · Status: new
+- Quelle: <https://whackahack.com/juegos/pokemon-emerald-rogue-ex/>
+- Mögliche Zuordnung: pokemon-emerald-rogue (name-in-release-title), candidate-a62bcf48ac1b42c9 (name-in-release-title), candidate-746aeb78fbf5dda5 (name-in-release-title)
+- Erstmals gefunden: 2026-10-23T11:50:54\.522Z
